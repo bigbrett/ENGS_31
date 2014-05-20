@@ -1,0 +1,8 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-cp132-4 "cmplx_mag.ngc" cmplx_mag.ngd  
+map -intstyle ise -p xc3s500e-cp132-4 -cm area -ir off -pr off -c 100 -o cmplx_mag_map.ncd cmplx_mag.ngd cmplx_mag.pcf 
+par -w -intstyle ise -ol high -t 1 cmplx_mag_map.ncd cmplx_mag.ncd cmplx_mag.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml cmplx_mag.twx cmplx_mag.ncd -o cmplx_mag.twr cmplx_mag.pcf 

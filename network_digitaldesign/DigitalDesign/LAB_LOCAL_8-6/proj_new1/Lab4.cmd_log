@@ -1,0 +1,43 @@
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+xst -intstyle ise -ifn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.xst" -ofn "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/Lab4.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ../finallab -nt timestamp -uc C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Basys2_25MHz1.ucf -p xc3s100e-cp132-4 Lab4.ngc Lab4.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o Lab4_map.ncd Lab4.ngd Lab4.pcf 
+par -w -intstyle ise -ol high -t 1 Lab4_map.ncd Lab4.ncd Lab4.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml Lab4.twx Lab4.ncd -o Lab4.twr Lab4.pcf 
+bitgen -intstyle ise -f Lab4.ut Lab4.ncd 

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/TbirdTB_real_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/TbirdTB_real_beh.prj" "work.TbirdTB_real" 

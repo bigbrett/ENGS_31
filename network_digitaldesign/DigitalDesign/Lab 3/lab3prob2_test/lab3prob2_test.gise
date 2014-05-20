@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab3prob2_test.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name=".lso"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="wristwatch_display.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="wristwatch_display.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="wristwatch_display.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="wristwatch_display.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="wristwatch_display.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="wristwatch_display.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="wristwatch_display_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="wristwatch_display_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="wristwatch_display_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="wristwatch_display_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="writstwatch.prj"/>
+    <file xil_pn:fileType="FILE_XST_STX" xil_pn:name="writstwatch.stx"/>
+    <file xil_pn:fileType="FILE_XST" xil_pn:name="writstwatch.xst"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-1801155662727375478" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-4874755292434674729" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7909122317251270728" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="-3893270297161306315" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034205" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="1403965379500713697" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1374034210" xil_pn:in_ck="2382720463820272500" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-216738639101010136" xil_pn:start_ts="1374034205">
+      <status xil_pn:value="FailedRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name=".lso"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="wristwatch_display.lso"/>
+      <outfile xil_pn:name="wristwatch_display.prj"/>
+      <outfile xil_pn:name="wristwatch_display.syr"/>
+      <outfile xil_pn:name="wristwatch_display.xst"/>
+      <outfile xil_pn:name="wristwatch_display_vhdl.prj"/>
+      <outfile xil_pn:name="wristwatch_display_xst.xrpt"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+    <transform xil_pn:end_ts="1374033885" xil_pn:name="TRAN_compileBCD2" xil_pn:prop_ck="5967841557178173309" xil_pn:start_ts="1374033885">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+  </transforms>
+
+</generated_project>

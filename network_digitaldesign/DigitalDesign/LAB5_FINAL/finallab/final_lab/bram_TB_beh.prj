@@ -1,0 +1,7 @@
+vhdl work "../SerialTx2.vhd"
+vhdl work "../SerialRX.vhd"
+vhdl work "../debounce.vhd"
+vhdl work "../brg.vhd"
+vhdl work "../bram_hlsm.vhd"
+vhdl work "../Lab4.vhd"
+vhdl work "../bram_TB.vhd"

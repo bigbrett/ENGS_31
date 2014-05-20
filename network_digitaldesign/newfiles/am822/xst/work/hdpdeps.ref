@@ -1,0 +1,37 @@
+V3 29
+FL C:/newfiles/comparator.vhd 2013/08/23.23:08:33 P.49d
+EN work/comparator 1377313913 FL C:/newfiles/comparator.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164
+AR work/comparator/Behavioral 1377313914 \
+      FL C:/newfiles/comparator.vhd EN work/comparator 1377313913
+FL C:/newfiles/controller.vhd 2013/08/23.22:43:11 P.49d
+EN work/controller 1377313905 FL C:/newfiles/controller.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164
+AR work/controller/Behavioral 1377313906 \
+      FL C:/newfiles/controller.vhd EN work/controller 1377313905
+FL C:/newfiles/freqcalc.vhd 2013/08/19.21:13:52 P.49d
+EN work/freqcalc 1377313911 FL C:/newfiles/freqcalc.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164
+AR work/freqcalc/Behavioral 1377313912 \
+      FL C:/newfiles/freqcalc.vhd EN work/freqcalc 1377313911
+FL C:/newfiles/fSCLK_GEN.vhd 2013/08/21.14:53:29 P.49d
+EN work/fSCLK_GEN 1377313909 FL C:/newfiles/fSCLK_GEN.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164 LB UNISIM PH unisim/VCOMPONENTS 1354696165
+AR work/fSCLK_GEN/Behavioral 1377313910 \
+      FL C:/newfiles/fSCLK_GEN.vhd EN work/fSCLK_GEN 1377313909 CP bufg
+FL C:/newfiles/SerialRX.vhd 2013/08/23.20:15:50 P.49d
+EN work/SerialRX 1377313907 FL C:/newfiles/SerialRX.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164
+AR work/SerialRX/Behavioral 1377313908 \
+      FL C:/newfiles/SerialRX.vhd EN work/SerialRX 1377313907
+FL C:/newfiles/s_rate_GEN.vhd 2013/08/23.13:34:47 P.49d
+EN work/s_rate_GEN 1377313915 FL C:/newfiles/s_rate_GEN.vhd PB ieee/std_logic_1164 1354696159 \
+      PB ieee/NUMERIC_STD 1354696164
+AR work/s_rate_GEN/Behavioral 1377313916 \
+      FL C:/newfiles/s_rate_GEN.vhd EN work/s_rate_GEN 1377313915
+FL C:/newfiles/topleveltuner.vhd 2013/08/23.23:11:05 P.49d
+EN work/topleveltuner 1377313917 FL C:/newfiles/topleveltuner.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/topleveltuner/Behavioral 1377313918 \
+      FL C:/newfiles/topleveltuner.vhd EN work/topleveltuner 1377313917 \
+      CP controller CP SerialRX CP fSCLK_GEN CP freqcalc CP comparator CP s_rate_GEN

@@ -1,0 +1,30 @@
+//! **************************************************************************
+// Written by: Map P.49d on Wed Aug 21 22:59:56 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "CS" LOCATE = SITE "B2" LEVEL 1;
+COMP "CLK" LOCATE = SITE "M6" LEVEL 1;
+COMP "TXD" LOCATE = SITE "A3" LEVEL 1;
+COMP "sCLK" LOCATE = SITE "B5" LEVEL 1;
+COMP "high" LOCATE = SITE "B7" LEVEL 1;
+COMP "tune" LOCATE = SITE "P11" LEVEL 1;
+COMP "pulse" LOCATE = SITE "C6" LEVEL 1;
+COMP "stringsel<0>" LOCATE = SITE "K3" LEVEL 1;
+COMP "stringsel<1>" LOCATE = SITE "B4" LEVEL 1;
+COMP "stringsel<2>" LOCATE = SITE "G3" LEVEL 1;
+COMP "stringsel<3>" LOCATE = SITE "F3" LEVEL 1;
+COMP "stringsel<4>" LOCATE = SITE "E2" LEVEL 1;
+COMP "stringsel<5>" LOCATE = SITE "N3" LEVEL 1;
+COMP "LEDs<0>" LOCATE = SITE "M5" LEVEL 1;
+COMP "LEDs<1>" LOCATE = SITE "M11" LEVEL 1;
+COMP "LEDs<2>" LOCATE = SITE "P7" LEVEL 1;
+COMP "LEDs<3>" LOCATE = SITE "P6" LEVEL 1;
+COMP "LEDs<4>" LOCATE = SITE "N5" LEVEL 1;
+COMP "LEDs<5>" LOCATE = SITE "N4" LEVEL 1;
+COMP "LEDs<6>" LOCATE = SITE "P4" LEVEL 1;
+COMP "LEDs<7>" LOCATE = SITE "G1" LEVEL 1;
+NET "CLK_BUFGP/IBUFG" BEL "CLK_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "CLK_BUFGP/IBUFG" PERIOD = 40 ns HIGH 50%;
+SCHEMATIC END;
+

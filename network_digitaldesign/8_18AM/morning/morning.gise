@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="morning.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_LOG" xil_pn:name="fuse.log"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="isim"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_CMD" xil_pn:name="isim.cmd"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_LOG" xil_pn:name="isim.log"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="rxtest_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="sinwave_tb_beh.prj"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_ISIM_EXE" xil_pn:name="sinwave_tb_isim_beh.exe"/>
+    <file xil_pn:fileType="FILE_ISIM_MISC" xil_pn:name="sinwave_tb_isim_beh.wdb"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="topleveltuner.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="topleveltuner.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="topleveltuner.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="topleveltuner.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="topleveltuner.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="topleveltuner.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="topleveltuner.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="topleveltuner.xst"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="topleveltuner_envsettings.html"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="topleveltuner_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="topleveltuner_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="topleveltuner_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:branch="BehavioralSim" xil_pn:fileType="FILE_INI" xil_pn:name="xilinxsim.ini"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1377394463" xil_pn:name="TRAN_copyInitialToAbstractSimulation" xil_pn:start_ts="1377394463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394732" xil_pn:in_ck="4480608334890129903" xil_pn:name="TRAN_copyAbstractToPostAbstractSimulation" xil_pn:start_ts="1377394731">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../8-20/SerialRX.vhd"/>
+      <outfile xil_pn:name="../../8-20/comparator.vhd"/>
+      <outfile xil_pn:name="../../8-20/controller.vhd"/>
+      <outfile xil_pn:name="../../8-20/fSCLK_GEN.vhd"/>
+      <outfile xil_pn:name="../../8-20/freqcalc.vhd"/>
+      <outfile xil_pn:name="../../8-20/s_rate_GEN.vhd"/>
+      <outfile xil_pn:name="../../8-20/sinwave_tb.vhd"/>
+      <outfile xil_pn:name="../../8-20/topleveltuner.vhd"/>
+      <outfile xil_pn:name="rxtest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394807" xil_pn:name="TRAN_xawsToSimhdl" xil_pn:prop_ck="749313937815048488" xil_pn:start_ts="1377394807">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394807" xil_pn:name="TRAN_schematicsToHdlSim" xil_pn:prop_ck="366598722885024042" xil_pn:start_ts="1377394807">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394463" xil_pn:name="TRAN_regenerateCoresSim" xil_pn:prop_ck="6408638824824180199" xil_pn:start_ts="1377394463">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394732" xil_pn:in_ck="4480608334890129903" xil_pn:name="TRAN_copyPostAbstractToPreSimulation" xil_pn:start_ts="1377394732">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="../../8-20/SerialRX.vhd"/>
+      <outfile xil_pn:name="../../8-20/comparator.vhd"/>
+      <outfile xil_pn:name="../../8-20/controller.vhd"/>
+      <outfile xil_pn:name="../../8-20/fSCLK_GEN.vhd"/>
+      <outfile xil_pn:name="../../8-20/freqcalc.vhd"/>
+      <outfile xil_pn:name="../../8-20/s_rate_GEN.vhd"/>
+      <outfile xil_pn:name="../../8-20/sinwave_tb.vhd"/>
+      <outfile xil_pn:name="../../8-20/topleveltuner.vhd"/>
+      <outfile xil_pn:name="rxtest.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394814" xil_pn:in_ck="4480608334890129903" xil_pn:name="TRAN_ISimulateBehavioralModelRunFuse" xil_pn:prop_ck="8488583698195772978" xil_pn:start_ts="1377394807">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="InputChanged"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="fuse.log"/>
+      <outfile xil_pn:name="isim"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sinwave_tb_beh.prj"/>
+      <outfile xil_pn:name="sinwave_tb_isim_beh.exe"/>
+      <outfile xil_pn:name="xilinxsim.ini"/>
+    </transform>
+    <transform xil_pn:end_ts="1377394814" xil_pn:in_ck="7980412767005822554" xil_pn:name="TRAN_ISimulateBehavioralModel" xil_pn:prop_ck="-1338608090348877569" xil_pn:start_ts="1377394814">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="OutOfDateForOutputs"/>
+      <status xil_pn:value="OutputChanged"/>
+      <outfile xil_pn:name="isim.cmd"/>
+      <outfile xil_pn:name="isim.log"/>
+      <outfile xil_pn:name="sinwave_tb_isim_beh.wdb"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_copyInitialToXSTAbstractSynthesis" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="3147120532065791070" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="6408638824824180199" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="3049596060238954588" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1376890284" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-997089935050220879" xil_pn:start_ts="1376890284">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+    </transform>
+    <transform xil_pn:end_ts="1376896096" xil_pn:in_ck="-5726404482330113056" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="-4111851369873695996" xil_pn:start_ts="1376896087">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <status xil_pn:value="OutOfDateForInputs"/>
+      <status xil_pn:value="OutOfDateForProperties"/>
+      <status xil_pn:value="OutOfDateForPredecessor"/>
+      <status xil_pn:value="InputChanged"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="topleveltuner.lso"/>
+      <outfile xil_pn:name="topleveltuner.ngc"/>
+      <outfile xil_pn:name="topleveltuner.ngr"/>
+      <outfile xil_pn:name="topleveltuner.prj"/>
+      <outfile xil_pn:name="topleveltuner.stx"/>
+      <outfile xil_pn:name="topleveltuner.syr"/>
+      <outfile xil_pn:name="topleveltuner.xst"/>
+      <outfile xil_pn:name="topleveltuner_vhdl.prj"/>
+      <outfile xil_pn:name="topleveltuner_xst.xrpt"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

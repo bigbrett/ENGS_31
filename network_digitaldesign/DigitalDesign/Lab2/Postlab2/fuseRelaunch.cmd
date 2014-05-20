@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb_beh.prj" "work.Lab2_updown_tb" 

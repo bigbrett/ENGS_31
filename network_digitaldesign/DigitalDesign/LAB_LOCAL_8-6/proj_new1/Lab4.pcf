@@ -1,0 +1,16 @@
+//! **************************************************************************
+// Written by: Map P.49d on Tue Aug 06 22:01:56 2013
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "DUMPbutton" LOCATE = SITE "A7" LEVEL 1;
+COMP "fulllight" LOCATE = SITE "G1" LEVEL 1;
+COMP "ORDERSWITCH" LOCATE = SITE "N3" LEVEL 1;
+COMP "RXD" LOCATE = SITE "A3" LEVEL 1;
+COMP "TXD" LOCATE = SITE "J3" LEVEL 1;
+COMP "emptylight" LOCATE = SITE "M5" LEVEL 1;
+COMP "Clk25" LOCATE = SITE "M6" LEVEL 1;
+NET "Clk25_BUFGP/IBUFG" BEL "Clk25_BUFGP/BUFG.GCLKMUX" USELOCALCONNECT;
+NET "Clk25_BUFGP/IBUFG" PERIOD = 40 ns HIGH 50%;
+SCHEMATIC END;
+

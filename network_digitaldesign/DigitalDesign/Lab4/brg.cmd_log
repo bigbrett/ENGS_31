@@ -1,0 +1,3 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/Lab4/brg.syr" 

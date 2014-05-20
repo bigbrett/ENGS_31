@@ -1,0 +1,10 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "O:/network_digitaldesign/8_18AM/morning/sinwave_tb_isim_beh.exe" -prj "O:/network_digitaldesign/8_18AM/morning/sinwave_tb_beh.prj" "work.sinwave_tb" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "O:/network_digitaldesign/8_18AM/morning/../../8-20/s_rate_GEN.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/8_18AM/morning/../../8-20/SerialRX.vhd" into library work
+ERROR:HDLCompiler:294 - "O:/network_digitaldesign/8_18AM/morning/../../8-20/SerialRX.vhd" Line 193: Cannot update 'in' object rcs
+ERROR:HDLCompiler:854 - "O:/network_digitaldesign/8_18AM/morning/../../8-20/SerialRX.vhd" Line 42: Unit <behavioral> ignored due to previous errors.
+VHDL file O:/network_digitaldesign/8_18AM/morning/../../8-20/SerialRX.vhd ignored due to errors

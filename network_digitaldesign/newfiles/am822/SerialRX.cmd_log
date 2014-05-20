@@ -1,0 +1,1 @@
+vhdtdtfi -prj am822 -o C:/newfiles/am822/SerialRX.vhi -module SerialRX -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../SerialRX.vhd 

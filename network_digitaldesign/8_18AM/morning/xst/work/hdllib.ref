@@ -1,0 +1,14 @@
+AR fsclk_gen behavioral C:/8_18AM/fSCLK_GEN.vhd sub00/vhpl05 1376896094
+EN serialrx NULL C:/8_18AM/SerialRX.vhd sub00/vhpl02 1376896091
+AR s_rate_gen behavioral C:/8_18AM/s_rate_GEN.vhd sub00/vhpl11 1376896100
+EN topleveltuner NULL C:/8_18AM/topleveltuner.vhd sub00/vhpl12 1376896101
+EN s_rate_gen NULL C:/8_18AM/s_rate_GEN.vhd sub00/vhpl10 1376896099
+EN freqcalc NULL C:/8_18AM/freqcalc.vhd sub00/vhpl06 1376896095
+EN fsclk_gen NULL C:/8_18AM/fSCLK_GEN.vhd sub00/vhpl04 1376896093
+AR topleveltuner behavioral C:/8_18AM/topleveltuner.vhd sub00/vhpl13 1376896102
+AR freqcalc behavioral C:/8_18AM/freqcalc.vhd sub00/vhpl07 1376896096
+EN controller NULL C:/8_18AM/controller.vhd sub00/vhpl00 1376896089
+EN comparator NULL C:/8_18AM/comparator.vhd sub00/vhpl08 1376896097
+AR controller behavioral C:/8_18AM/controller.vhd sub00/vhpl01 1376896090
+AR comparator behavioral C:/8_18AM/comparator.vhd sub00/vhpl09 1376896098
+AR serialrx behavioral C:/8_18AM/SerialRX.vhd sub00/vhpl03 1376896092

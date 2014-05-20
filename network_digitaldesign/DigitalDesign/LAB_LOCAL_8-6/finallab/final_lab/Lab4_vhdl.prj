@@ -1,0 +1,6 @@
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\SerialTx2.vhd"
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\SerialRX.vhd"
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\debounce.vhd"
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\brg.vhd"
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\bram_hlsm.vhd"
+vhdl work "\\thayerfs\d36937q\network_digitaldesign\DigitalDesign\finallab\Lab4.vhd"

@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Lab 3/Lab4/SerialRx_tb_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Lab 3/Lab4/SerialRx_tb_beh.prj" "work.SerialRx_tb" 

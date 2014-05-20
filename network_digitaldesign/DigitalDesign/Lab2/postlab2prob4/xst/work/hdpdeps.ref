@@ -1,0 +1,9 @@
+V3 4
+FL //thayerfs/d36937q/Desktop/Digitaldesign/Lab2/postlab2prob4/two_clk_light.vhd 2013/07/10.16:20:33 P.49d
+EN work/two_clk_light 1373487648 \
+      FL //thayerfs/d36937q/Desktop/Digitaldesign/Lab2/postlab2prob4/two_clk_light.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/two_clk_light/fsmlight 1373487649 \
+      FL //thayerfs/d36937q/Desktop/Digitaldesign/Lab2/postlab2prob4/two_clk_light.vhd \
+      EN work/two_clk_light 1373487648
+FL //thayerfs/d36937q/Desktop/Digitaldesign/postlab2prob4/two_clk_light.vhd 2013/07/10.01:41:28 P.49d

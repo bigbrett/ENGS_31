@@ -1,0 +1,7 @@
+vhdl work "s_rate_GEN.vhd"
+vhdl work "SerialRX.vhd"
+vhdl work "fSCLK_GEN.vhd"
+vhdl work "freqcalc.vhd"
+vhdl work "controller.vhd"
+vhdl work "comparator.vhd"
+vhdl work "topleveltuner.vhd"

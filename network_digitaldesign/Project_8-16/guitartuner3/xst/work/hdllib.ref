@@ -1,0 +1,10 @@
+AR fsclk_gen behavioral C:/Project_8-16/fSCLK_GEN.vhd sub00/vhpl05 1376674912
+EN delt_timer NULL C:/Project_8-16/delT_timer.vhd sub00/vhpl06 1376674913
+EN serialrx NULL C:/Project_8-16/SerialRX.vhd sub00/vhpl02 1376674909
+EN topleveltuner NULL C:/Project_8-16/topleveltuner.vhd sub00/vhpl08 1376674915
+EN fsclk_gen NULL C:/Project_8-16/fSCLK_GEN.vhd sub00/vhpl04 1376674911
+AR topleveltuner behavioral C:/Project_8-16/topleveltuner.vhd sub00/vhpl09 1376674916
+AR delt_timer behavioral C:/Project_8-16/delT_timer.vhd sub00/vhpl07 1376674914
+EN controller NULL C:/Project_8-16/controller.vhd sub00/vhpl00 1376674907
+AR controller behavioral C:/Project_8-16/controller.vhd sub00/vhpl01 1376674908
+AR serialrx behavioral C:/Project_8-16/SerialRX.vhd sub00/vhpl03 1376674910

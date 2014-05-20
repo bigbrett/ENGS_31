@@ -1,0 +1,5 @@
+vhdl work "../SerialTx2.vhd"
+vhdl work "../SerialRX.vhd"
+vhdl work "../brg.vhd"
+vhdl work "../Lab4.vhd"
+vhdl work "../SerialRx_tb13x.vhd"

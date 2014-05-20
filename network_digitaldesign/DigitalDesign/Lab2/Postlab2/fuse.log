@@ -1,0 +1,20 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb_beh.prj" "work.Lab2_updown_tb" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "O:/Desktop/Digitaldesign/Postlab2/TwoBitUpDownCtr[1].vhd" into library work
+Parsing VHDL file "O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb[1].vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling architecture behavioral of entity TwoBitUpDownCtr [twobitupdownctr_default]
+Compiling architecture behavior of entity lab2_updown_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 6 VHDL Units
+Built simulation executable O:/Desktop/Digitaldesign/Postlab2/Lab2_updown_tb_isim_beh.exe
+Fuse Memory Usage: 37824 KB
+Fuse CPU Usage: 686 ms

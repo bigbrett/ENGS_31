@@ -1,0 +1,989 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr
+topleveltuner.pcf -ucf dublenewucf.ucf
+
+Design file:              topleveltuner.ncd
+Physical constraint file: topleveltuner.pcf
+Device,package,speed:     xc3s100e,cp132,-4 (PRODUCTION 1.27 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+================================================================================
+Timing constraint: NET "CLK_BUFGP/IBUFG" PERIOD = 40 ns HIGH 50%;
+For more information, see Period Analysis in the Timing Closure User Guide (UG612).
+
+ 1343 paths analyzed, 165 endpoints analyzed, 0 failing endpoints
+ 0 timing errors detected. (0 setup errors, 0 hold errors, 0 component switching limit errors)
+ Minimum period is   6.307ns.
+--------------------------------------------------------------------------------
+
+Paths for end point control/PS_FSM_FFd4 (SLICE_X12Y32.SR), 8 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     33.693ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               control/PS_FSM_FFd2 (FF)
+  Destination:          control/PS_FSM_FFd4 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.307ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: control/PS_FSM_FFd2 to control/PS_FSM_FFd4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X15Y27.XQ      Tcko                  0.591   control/PS_FSM_FFd2
+                                                       control/PS_FSM_FFd2
+    SLICE_X14Y35.F2      net (fanout=12)       1.797   control/PS_FSM_FFd2
+    SLICE_X14Y35.X       Tilo                  0.759   control/PS_FSM_FFd4-In213
+                                                       control/PS_FSM_FFd4-In213
+    SLICE_X13Y34.G3      net (fanout=1)        0.379   control/PS_FSM_FFd4-In213
+    SLICE_X13Y34.X       Tif5x                 1.025   control/PS_FSM_FFd4-In255
+                                                       control/PS_FSM_FFd4-In2552
+                                                       control/PS_FSM_FFd4-In255_f5
+    SLICE_X12Y32.SR      net (fanout=1)        0.846   control/PS_FSM_FFd4-In255
+    SLICE_X12Y32.CLK     Tsrck                 0.910   control/PS_FSM_FFd4
+                                                       control/PS_FSM_FFd4
+    -------------------------------------------------  ---------------------------
+    Total                                      6.307ns (3.285ns logic, 3.022ns route)
+                                                       (52.1% logic, 47.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.437ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               control/PS_FSM_FFd2 (FF)
+  Destination:          control/PS_FSM_FFd4 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.563ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: control/PS_FSM_FFd2 to control/PS_FSM_FFd4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X15Y27.XQ      Tcko                  0.591   control/PS_FSM_FFd2
+                                                       control/PS_FSM_FFd2
+    SLICE_X12Y34.G2      net (fanout=12)       1.237   control/PS_FSM_FFd2
+    SLICE_X12Y34.Y       Tilo                  0.759   control/PS_FSM_FFd4-In238
+                                                       control/PS_FSM_FFd4-In201
+    SLICE_X13Y34.G1      net (fanout=1)        0.195   control/PS_FSM_FFd4-In201
+    SLICE_X13Y34.X       Tif5x                 1.025   control/PS_FSM_FFd4-In255
+                                                       control/PS_FSM_FFd4-In2552
+                                                       control/PS_FSM_FFd4-In255_f5
+    SLICE_X12Y32.SR      net (fanout=1)        0.846   control/PS_FSM_FFd4-In255
+    SLICE_X12Y32.CLK     Tsrck                 0.910   control/PS_FSM_FFd4
+                                                       control/PS_FSM_FFd4
+    -------------------------------------------------  ---------------------------
+    Total                                      5.563ns (3.285ns logic, 2.278ns route)
+                                                       (59.1% logic, 40.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.588ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               control/PS_FSM_FFd4 (FF)
+  Destination:          control/PS_FSM_FFd4 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.412ns (Levels of Logic = 2)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: control/PS_FSM_FFd4 to control/PS_FSM_FFd4
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y32.XQ      Tcko                  0.592   control/PS_FSM_FFd4
+                                                       control/PS_FSM_FFd4
+    SLICE_X12Y34.G3      net (fanout=17)       1.085   control/PS_FSM_FFd4
+    SLICE_X12Y34.Y       Tilo                  0.759   control/PS_FSM_FFd4-In238
+                                                       control/PS_FSM_FFd4-In201
+    SLICE_X13Y34.G1      net (fanout=1)        0.195   control/PS_FSM_FFd4-In201
+    SLICE_X13Y34.X       Tif5x                 1.025   control/PS_FSM_FFd4-In255
+                                                       control/PS_FSM_FFd4-In2552
+                                                       control/PS_FSM_FFd4-In255_f5
+    SLICE_X12Y32.SR      net (fanout=1)        0.846   control/PS_FSM_FFd4-In255
+    SLICE_X12Y32.CLK     Tsrck                 0.910   control/PS_FSM_FFd4
+                                                       control/PS_FSM_FFd4
+    -------------------------------------------------  ---------------------------
+    Total                                      5.412ns (3.286ns logic, 2.126ns route)
+                                                       (60.7% logic, 39.3% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point calcfreq/CurrCount_47 (SLICE_X25Y28.CIN), 46 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     33.955ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_0 (FF)
+  Destination:          calcfreq/CurrCount_47 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      6.032ns (Levels of Logic = 24)
+  Clock Path Skew:      -0.013ns (0.030 - 0.043)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_0 to calcfreq/CurrCount_47
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y5.XQ       Tcko                  0.591   calcfreq/CurrCount<0>
+                                                       calcfreq/CurrCount_0
+    SLICE_X25Y5.F1       net (fanout=6)        0.681   calcfreq/CurrCount<0>
+    SLICE_X25Y5.COUT     Topcyf                1.162   calcfreq/CurrCount<0>
+                                                       calcfreq/Mcount_CurrCount_lut<0>_INV_0
+                                                       calcfreq/Mcount_CurrCount_cy<0>
+                                                       calcfreq/Mcount_CurrCount_cy<1>
+    SLICE_X25Y6.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<1>
+    SLICE_X25Y6.COUT     Tbyp                  0.118   calcfreq/CurrCount<2>
+                                                       calcfreq/Mcount_CurrCount_cy<2>
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.COUT    Tbyp                  0.118   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CLK     Tcinck                1.002   calcfreq/CurrCount<46>
+                                                       calcfreq/Mcount_CurrCount_cy<46>
+                                                       calcfreq/Mcount_CurrCount_xor<47>
+                                                       calcfreq/CurrCount_47
+    -------------------------------------------------  ---------------------------
+    Total                                      6.032ns (5.351ns logic, 0.681ns route)
+                                                       (88.7% logic, 11.3% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.055ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_3 (FF)
+  Destination:          calcfreq/CurrCount_47 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.934ns (Levels of Logic = 23)
+  Clock Path Skew:      -0.011ns (0.030 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_3 to calcfreq/CurrCount_47
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y6.YQ       Tcko                  0.587   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount_3
+    SLICE_X25Y6.G1       net (fanout=7)        0.866   calcfreq/CurrCount<3>
+    SLICE_X25Y6.COUT     Topcyg                1.001   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount<3>_rt
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.COUT    Tbyp                  0.118   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CLK     Tcinck                1.002   calcfreq/CurrCount<46>
+                                                       calcfreq/Mcount_CurrCount_cy<46>
+                                                       calcfreq/Mcount_CurrCount_xor<47>
+                                                       calcfreq/CurrCount_47
+    -------------------------------------------------  ---------------------------
+    Total                                      5.934ns (5.068ns logic, 0.866ns route)
+                                                       (85.4% logic, 14.6% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.128ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_2 (FF)
+  Destination:          calcfreq/CurrCount_47 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.861ns (Levels of Logic = 23)
+  Clock Path Skew:      -0.011ns (0.030 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_2 to calcfreq/CurrCount_47
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y6.XQ       Tcko                  0.591   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount_2
+    SLICE_X25Y6.F3       net (fanout=7)        0.628   calcfreq/CurrCount<2>
+    SLICE_X25Y6.COUT     Topcyf                1.162   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount<2>_rt
+                                                       calcfreq/Mcount_CurrCount_cy<2>
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.COUT    Tbyp                  0.118   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<45>
+    SLICE_X25Y28.CLK     Tcinck                1.002   calcfreq/CurrCount<46>
+                                                       calcfreq/Mcount_CurrCount_cy<46>
+                                                       calcfreq/Mcount_CurrCount_xor<47>
+                                                       calcfreq/CurrCount_47
+    -------------------------------------------------  ---------------------------
+    Total                                      5.861ns (5.233ns logic, 0.628ns route)
+                                                       (89.3% logic, 10.7% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point calcfreq/CurrCount_45 (SLICE_X25Y27.CIN), 44 paths
+--------------------------------------------------------------------------------
+Slack (setup path):     34.075ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_0 (FF)
+  Destination:          calcfreq/CurrCount_45 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.914ns (Levels of Logic = 23)
+  Clock Path Skew:      -0.011ns (0.032 - 0.043)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_0 to calcfreq/CurrCount_45
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y5.XQ       Tcko                  0.591   calcfreq/CurrCount<0>
+                                                       calcfreq/CurrCount_0
+    SLICE_X25Y5.F1       net (fanout=6)        0.681   calcfreq/CurrCount<0>
+    SLICE_X25Y5.COUT     Topcyf                1.162   calcfreq/CurrCount<0>
+                                                       calcfreq/Mcount_CurrCount_lut<0>_INV_0
+                                                       calcfreq/Mcount_CurrCount_cy<0>
+                                                       calcfreq/Mcount_CurrCount_cy<1>
+    SLICE_X25Y6.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<1>
+    SLICE_X25Y6.COUT     Tbyp                  0.118   calcfreq/CurrCount<2>
+                                                       calcfreq/Mcount_CurrCount_cy<2>
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CLK     Tcinck                1.002   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_xor<45>
+                                                       calcfreq/CurrCount_45
+    -------------------------------------------------  ---------------------------
+    Total                                      5.914ns (5.233ns logic, 0.681ns route)
+                                                       (88.5% logic, 11.5% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.175ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_3 (FF)
+  Destination:          calcfreq/CurrCount_45 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.816ns (Levels of Logic = 22)
+  Clock Path Skew:      -0.009ns (0.032 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_3 to calcfreq/CurrCount_45
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y6.YQ       Tcko                  0.587   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount_3
+    SLICE_X25Y6.G1       net (fanout=7)        0.866   calcfreq/CurrCount<3>
+    SLICE_X25Y6.COUT     Topcyg                1.001   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount<3>_rt
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CLK     Tcinck                1.002   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_xor<45>
+                                                       calcfreq/CurrCount_45
+    -------------------------------------------------  ---------------------------
+    Total                                      5.816ns (4.950ns logic, 0.866ns route)
+                                                       (85.1% logic, 14.9% route)
+
+--------------------------------------------------------------------------------
+Slack (setup path):     34.248ns (requirement - (data path - clock path skew + uncertainty))
+  Source:               calcfreq/CurrCount_2 (FF)
+  Destination:          calcfreq/CurrCount_45 (FF)
+  Requirement:          40.000ns
+  Data Path Delay:      5.743ns (Levels of Logic = 22)
+  Clock Path Skew:      -0.009ns (0.032 - 0.041)
+  Source Clock:         CLK_BUFGP rising at 0.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Maximum Data Path: calcfreq/CurrCount_2 to calcfreq/CurrCount_45
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X25Y6.XQ       Tcko                  0.591   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount_2
+    SLICE_X25Y6.F3       net (fanout=7)        0.628   calcfreq/CurrCount<2>
+    SLICE_X25Y6.COUT     Topcyf                1.162   calcfreq/CurrCount<2>
+                                                       calcfreq/CurrCount<2>_rt
+                                                       calcfreq/Mcount_CurrCount_cy<2>
+                                                       calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<3>
+    SLICE_X25Y7.COUT     Tbyp                  0.118   calcfreq/CurrCount<4>
+                                                       calcfreq/Mcount_CurrCount_cy<4>
+                                                       calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<5>
+    SLICE_X25Y8.COUT     Tbyp                  0.118   calcfreq/CurrCount<6>
+                                                       calcfreq/Mcount_CurrCount_cy<6>
+                                                       calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.CIN      net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<7>
+    SLICE_X25Y9.COUT     Tbyp                  0.118   calcfreq/CurrCount<8>
+                                                       calcfreq/Mcount_CurrCount_cy<8>
+                                                       calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<9>
+    SLICE_X25Y10.COUT    Tbyp                  0.118   calcfreq/CurrCount<10>
+                                                       calcfreq/Mcount_CurrCount_cy<10>
+                                                       calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<11>
+    SLICE_X25Y11.COUT    Tbyp                  0.118   calcfreq/CurrCount<12>
+                                                       calcfreq/Mcount_CurrCount_cy<12>
+                                                       calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<13>
+    SLICE_X25Y12.COUT    Tbyp                  0.118   calcfreq/CurrCount<14>
+                                                       calcfreq/Mcount_CurrCount_cy<14>
+                                                       calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<15>
+    SLICE_X25Y13.COUT    Tbyp                  0.118   calcfreq/CurrCount<16>
+                                                       calcfreq/Mcount_CurrCount_cy<16>
+                                                       calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<17>
+    SLICE_X25Y14.COUT    Tbyp                  0.118   calcfreq/CurrCount<18>
+                                                       calcfreq/Mcount_CurrCount_cy<18>
+                                                       calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<19>
+    SLICE_X25Y15.COUT    Tbyp                  0.118   calcfreq/CurrCount<20>
+                                                       calcfreq/Mcount_CurrCount_cy<20>
+                                                       calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<21>
+    SLICE_X25Y16.COUT    Tbyp                  0.118   calcfreq/CurrCount<22>
+                                                       calcfreq/Mcount_CurrCount_cy<22>
+                                                       calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<23>
+    SLICE_X25Y17.COUT    Tbyp                  0.118   calcfreq/CurrCount<24>
+                                                       calcfreq/Mcount_CurrCount_cy<24>
+                                                       calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<25>
+    SLICE_X25Y18.COUT    Tbyp                  0.118   calcfreq/CurrCount<26>
+                                                       calcfreq/Mcount_CurrCount_cy<26>
+                                                       calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<27>
+    SLICE_X25Y19.COUT    Tbyp                  0.118   calcfreq/CurrCount<28>
+                                                       calcfreq/Mcount_CurrCount_cy<28>
+                                                       calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<29>
+    SLICE_X25Y20.COUT    Tbyp                  0.118   calcfreq/CurrCount<30>
+                                                       calcfreq/Mcount_CurrCount_cy<30>
+                                                       calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<31>
+    SLICE_X25Y21.COUT    Tbyp                  0.118   calcfreq/CurrCount<32>
+                                                       calcfreq/Mcount_CurrCount_cy<32>
+                                                       calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<33>
+    SLICE_X25Y22.COUT    Tbyp                  0.118   calcfreq/CurrCount<34>
+                                                       calcfreq/Mcount_CurrCount_cy<34>
+                                                       calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<35>
+    SLICE_X25Y23.COUT    Tbyp                  0.118   calcfreq/CurrCount<36>
+                                                       calcfreq/Mcount_CurrCount_cy<36>
+                                                       calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<37>
+    SLICE_X25Y24.COUT    Tbyp                  0.118   calcfreq/CurrCount<38>
+                                                       calcfreq/Mcount_CurrCount_cy<38>
+                                                       calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<39>
+    SLICE_X25Y25.COUT    Tbyp                  0.118   calcfreq/CurrCount<40>
+                                                       calcfreq/Mcount_CurrCount_cy<40>
+                                                       calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<41>
+    SLICE_X25Y26.COUT    Tbyp                  0.118   calcfreq/CurrCount<42>
+                                                       calcfreq/Mcount_CurrCount_cy<42>
+                                                       calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CIN     net (fanout=1)        0.000   calcfreq/Mcount_CurrCount_cy<43>
+    SLICE_X25Y27.CLK     Tcinck                1.002   calcfreq/CurrCount<44>
+                                                       calcfreq/Mcount_CurrCount_cy<44>
+                                                       calcfreq/Mcount_CurrCount_xor<45>
+                                                       calcfreq/CurrCount_45
+    -------------------------------------------------  ---------------------------
+    Total                                      5.743ns (5.115ns logic, 0.628ns route)
+                                                       (89.1% logic, 10.9% route)
+
+--------------------------------------------------------------------------------
+
+Hold Paths: NET "CLK_BUFGP/IBUFG" PERIOD = 40 ns HIGH 50%;
+--------------------------------------------------------------------------------
+
+Paths for end point control/PS_FSM_FFd1 (SLICE_X12Y28.G4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.602ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               control/PS_FSM_FFd2 (FF)
+  Destination:          control/PS_FSM_FFd1 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.599ns (Levels of Logic = 1)
+  Clock Path Skew:      -0.003ns (0.023 - 0.026)
+  Source Clock:         CLK_BUFGP rising at 40.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: control/PS_FSM_FFd2 to control/PS_FSM_FFd1
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X15Y27.XQ      Tcko                  0.473   control/PS_FSM_FFd2
+                                                       control/PS_FSM_FFd2
+    SLICE_X12Y28.G4      net (fanout=12)       0.566   control/PS_FSM_FFd2
+    SLICE_X12Y28.CLK     Tckg        (-Th)    -0.560   control/PS_FSM_FFd1
+                                                       control/PS_FSM_FFd1-In11
+                                                       control/PS_FSM_FFd1
+    -------------------------------------------------  ---------------------------
+    Total                                      1.599ns (1.033ns logic, 0.566ns route)
+                                                       (64.6% logic, 35.4% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point srategen/srcount_8 (SLICE_X31Y15.F4), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.614ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               srategen/srcount_8 (FF)
+  Destination:          srategen/srcount_8 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.614ns (Levels of Logic = 1)
+  Clock Path Skew:      0.000ns
+  Source Clock:         CLK_BUFGP rising at 40.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: srategen/srcount_8 to srategen/srcount_8
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X31Y15.XQ      Tcko                  0.473   srategen/srcount<8>
+                                                       srategen/srcount_8
+    SLICE_X31Y15.F4      net (fanout=3)        0.340   srategen/srcount<8>
+    SLICE_X31Y15.CLK     Tckf        (-Th)    -0.801   srategen/srcount<8>
+                                                       srategen/srcount<8>_rt
+                                                       srategen/Mcount_srcount_xor<8>
+                                                       srategen/srcount_8
+    -------------------------------------------------  ---------------------------
+    Total                                      1.614ns (1.274ns logic, 0.340ns route)
+                                                       (78.9% logic, 21.1% route)
+
+--------------------------------------------------------------------------------
+
+Paths for end point control/PS_FSM_FFd2 (SLICE_X15Y27.F2), 1 path
+--------------------------------------------------------------------------------
+Slack (hold path):      1.627ns (requirement - (clock path skew + uncertainty - data path))
+  Source:               control/PS_FSM_FFd1 (FF)
+  Destination:          control/PS_FSM_FFd2 (FF)
+  Requirement:          0.000ns
+  Data Path Delay:      1.630ns (Levels of Logic = 1)
+  Clock Path Skew:      0.003ns (0.026 - 0.023)
+  Source Clock:         CLK_BUFGP rising at 40.000ns
+  Destination Clock:    CLK_BUFGP rising at 40.000ns
+  Clock Uncertainty:    0.000ns
+
+  Minimum Data Path: control/PS_FSM_FFd1 to control/PS_FSM_FFd2
+    Location             Delay type         Delay(ns)  Physical Resource
+                                                       Logical Resource(s)
+    -------------------------------------------------  -------------------
+    SLICE_X12Y28.YQ      Tcko                  0.522   control/PS_FSM_FFd1
+                                                       control/PS_FSM_FFd1
+    SLICE_X15Y27.F2      net (fanout=17)       0.592   control/PS_FSM_FFd1
+    SLICE_X15Y27.CLK     Tckf        (-Th)    -0.516   control/PS_FSM_FFd2
+                                                       control/PS_FSM_FFd2-In551
+                                                       control/PS_FSM_FFd2
+    -------------------------------------------------  ---------------------------
+    Total                                      1.630ns (1.038ns logic, 0.592ns route)
+                                                       (63.7% logic, 36.3% route)
+
+--------------------------------------------------------------------------------
+
+Component Switching Limit Checks: NET "CLK_BUFGP/IBUFG" PERIOD = 40 ns HIGH 50%;
+--------------------------------------------------------------------------------
+Slack: 38.348ns (period - (min low pulse limit / (low pulse / period)))
+  Period: 40.000ns
+  Low pulse: 20.000ns
+  Low pulse limit: 0.826ns (Tcl)
+  Physical resource: control/PS_FSM_FFd4/CLK
+  Logical resource: control/PS_FSM_FFd4/CK
+  Location pin: SLICE_X12Y32.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+Slack: 38.348ns (period - (min high pulse limit / (high pulse / period)))
+  Period: 40.000ns
+  High pulse: 20.000ns
+  High pulse limit: 0.826ns (Tch)
+  Physical resource: control/PS_FSM_FFd4/CLK
+  Logical resource: control/PS_FSM_FFd4/CK
+  Location pin: SLICE_X12Y32.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+Slack: 38.348ns (period - min period limit)
+  Period: 40.000ns
+  Min period limit: 1.652ns (605.327MHz) (Tcp)
+  Physical resource: control/PS_FSM_FFd4/CLK
+  Logical resource: control/PS_FSM_FFd4/CK
+  Location pin: SLICE_X12Y32.CLK
+  Clock network: CLK_BUFGP
+--------------------------------------------------------------------------------
+
+
+All constraints were met.
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock to Setup on destination clock CLK
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+CLK            |    6.307|         |         |         |
+---------------+---------+---------+---------+---------+
+
+
+Timing summary:
+---------------
+
+Timing errors: 0  Score: 0  (Setup/Max: 0, Hold: 0)
+
+Constraints cover 1343 paths, 0 nets, and 199 connections
+
+Design statistics:
+   Minimum period:   6.307ns{1}   (Maximum frequency: 158.554MHz)
+
+
+------------------------------------Footnotes-----------------------------------
+1)  The minimum period statistic assumes all single cycle delays.
+
+Analysis completed Wed Aug 21 23:00:09 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 163 MB
+
+
+

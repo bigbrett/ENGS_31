@@ -1,0 +1,72 @@
+    ____  ____
+   /   /\/   /
+  /___/  \  /    VENDOR      : Xilinx Inc.
+  \   \   \/     VERSION     : 14.4 (P.49d)
+   \   \         APPLICATION : C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe
+   /   /         CONTENTS    : Compilation Log
+  /___/   /\     FILENAME    : compxlib.log
+  \   \  /  \    
+   \___\/\___\
+
+Release 14.4 - C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe 14.4 (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+Processing command line ...
+Library Source Paths => 'C:/Xilinx/14.4/ISE_DS/ISE'
+Current Working Directory => 'O:\Desktop\Digitaldesign\Lab2\postlab2prob4'
+Compilation Mode = FAST
+Execute Mode = ON
+Scheduling library installation & compilation for architectures: spartan3e
+
+Scheduling library installation & compilation for libraries: simprim unisim xilinxcorelib edk
+
+Signature:-
+------------------------------------------------------------------------------
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\compxlib.exe -s mti_pe -l vhdl -arch spartan3e -lib unisim -lib simprim -lib xilinxcorelib -lib edk -exclude_superseded -intstyle ise 
+------------------------------------------------------------------------------
+ERROR:Compxlib - COMPXLIB[sim]: Unable to automatically find executables for simulator 'mti_pe' from the following paths:
+    C:\Xilinx\14.4\ISE_DS\ISE\\lib\nt64
+   C:\Xilinx\14.4\ISE_DS\ISE\\bin\nt64
+   C:\Xilinx\Vivado_HLS\2012.4\bin
+   C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64
+   C:\Xilinx\14.4\ISE_DS\ISE\lib\nt64
+   C:\Xilinx\14.4\ISE_DS\ISE\..\..\..\DocNav
+   C:\Xilinx\Vivado\2012.4\bin
+   C:\Xilinx\14.4\ISE_DS\PlanAhead\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\bin\nt64
+   C:\Xilinx\14.4\ISE_DS\EDK\lib\nt64
+   C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\nt64\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\gnu\powerpc-eabi\nt64\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\gnuwin\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\gnu\arm\nt\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin
+   C:\Xilinx\14.4\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin
+   C:\Xilinx\14.4\ISE_DS\common\bin\nt64
+   C:\Xilinx\14.4\ISE_DS\common\lib\nt64
+   C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v3.2\bin\
+   C:\Python27\
+   C:\Python27\Scripts
+   C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common
+   C:\Windows\system32
+   C:\Windows
+   C:\Windows\System32\Wbem
+   C:\Windows\System32\WindowsPowerShell\v1.0\
+   C:\Program Files (x86)\Microsoft Application Virtualization Client
+   C:\Program Files (x86)\QuickTime\QTSystem\
+   C:\MATLAB_R2013a\runtime\win64
+   C:\MATLAB_R2013a\bin
+   C:\MATLAB_R2012b\runtime\win64
+   C:\MATLAB_R2012b\bin
+   c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\
+   c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\
+   C:\Program Files\TortoiseSVN\bin
+   C:\Program Files (x86)\Common Files\Roxio Shared\DLLShared\
+   C:\Cadence\SPB_16.5-silent\tools\PSpice
+   C:\Cadence\SPB_16.5-silent\tools\PSpice\Library
+   C:\Cadence\SPB_16.5-silent\tools\Capture
+   C:\Cadence\SPB_16.5-silent\tools\bin
+   C:\Cadence\SPB_16.5-silent\tools\fet\bin
+   C:\Cadence\SPB_16.5-silent\OpenAccess\bin\win32\opt
+   C:\Cadence\SPB_16.5-silent\tools\pcb\bin
+   C:\Program Files (x86)\Microsoft SQL Server\80\Tools\Binn\.
+Simulator 'mti_pe' is ignored.

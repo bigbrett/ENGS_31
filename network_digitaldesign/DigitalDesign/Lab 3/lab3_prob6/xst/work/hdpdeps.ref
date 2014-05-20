@@ -1,0 +1,8 @@
+V3 3
+FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob6/mux7seg.vhd" 2013/07/18.15:12:36 P.49d
+EN work/mux7seg 1374174766 \
+      FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob6/mux7seg.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/mux7seg/Behavioral 1374174767 \
+      FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob6/mux7seg.vhd" \
+      EN work/mux7seg 1374174766

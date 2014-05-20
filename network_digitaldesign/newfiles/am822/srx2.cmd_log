@@ -1,0 +1,1 @@
+vhdtdtfi -prj am822 -o C:/newfiles/am822/srx2.vhi -module srx2 -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work srx2.vhd 

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="C:/8_18AM/morning/sinwave_tb_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="math_real" />
+            <top_module name="numeric_std" />
+            <top_module name="sinwave_tb" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="59" />
+   <wvobject fp_name="/sinwave_tb/UUT/compare/leds" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">leds[7:0]</obj_property>
+      <obj_property name="ObjectShortName">leds[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/stringsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stringsel[5:0]</obj_property>
+      <obj_property name="ObjectShortName">stringsel[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/tune" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">tune</obj_property>
+      <obj_property name="ObjectShortName">tune</obj_property>
+      <obj_property name="label">tune</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider21" type="divider">
+      <obj_property name="label">Controller</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/stringsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stringsel[5:0]</obj_property>
+      <obj_property name="ObjectShortName">stringsel[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/ccs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ccs</obj_property>
+      <obj_property name="ObjectShortName">ccs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/rx_done_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/starttick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">starttick</obj_property>
+      <obj_property name="ObjectShortName">starttick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/freq_pulse" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">freq_pulse</obj_property>
+      <obj_property name="ObjectShortName">freq_pulse</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/lastamp" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lastamp</obj_property>
+      <obj_property name="ObjectShortName">lastamp</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/sin_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">sin_in[11:0]</obj_property>
+      <obj_property name="ObjectShortName">sin_in[11:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/amp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">amp[11:0]</obj_property>
+      <obj_property name="ObjectShortName">amp[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/ps" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ps</obj_property>
+      <obj_property name="ObjectShortName">ps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/control/ns" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ns</obj_property>
+      <obj_property name="ObjectShortName">ns</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider20" type="divider">
+      <obj_property name="label">CalcFreq</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/pulse_in" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">pulse_in</obj_property>
+      <obj_property name="ObjectShortName">pulse_in</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/nosignal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">nosignal</obj_property>
+      <obj_property name="ObjectShortName">nosignal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/pulse_per" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">pulse_per[53:0]</obj_property>
+      <obj_property name="ObjectShortName">pulse_per[53:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/currcount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">currcount[47:0]</obj_property>
+      <obj_property name="ObjectShortName">currcount[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/prevcount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">prevcount[47:0]</obj_property>
+      <obj_property name="ObjectShortName">prevcount[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/numticks" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">numticks[47:0]</obj_property>
+      <obj_property name="ObjectShortName">numticks[47:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/temp" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">temp[51:0]</obj_property>
+      <obj_property name="ObjectShortName">temp[51:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/bigcount" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">bigcount[31:0]</obj_property>
+      <obj_property name="ObjectShortName">bigcount[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/bigcount_tc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bigcount_tc</obj_property>
+      <obj_property name="ObjectShortName">bigcount_tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/bc_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">bc_clr</obj_property>
+      <obj_property name="ObjectShortName">bc_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/calcfreq/clkperiod" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">clkperiod[0:5]</obj_property>
+      <obj_property name="ObjectShortName">clkperiod[0:5]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider22" type="divider">
+      <obj_property name="label">Compare</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/clk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/stringsel" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">stringsel[5:0]</obj_property>
+      <obj_property name="ObjectShortName">stringsel[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/data_in" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">data_in[53:0]</obj_property>
+      <obj_property name="ObjectShortName">data_in[53:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/no_signal" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">no_signal</obj_property>
+      <obj_property name="ObjectShortName">no_signal</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/upper_threshold" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">upper_threshold</obj_property>
+      <obj_property name="ObjectShortName">upper_threshold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/lower_threshold" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">lower_threshold</obj_property>
+      <obj_property name="ObjectShortName">lower_threshold</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/compare/datasig" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">datasig[53:0]</obj_property>
+      <obj_property name="ObjectShortName">datasig[53:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider23" type="divider">
+      <obj_property name="label">SerialRX</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/fsclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsclk</obj_property>
+      <obj_property name="ObjectShortName">fsclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/rcs" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rcs</obj_property>
+      <obj_property name="ObjectShortName">rcs</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[11:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/srategen/starttick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">starttick</obj_property>
+      <obj_property name="ObjectShortName">starttick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/txd" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">txd</obj_property>
+      <obj_property name="ObjectShortName">txd</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/rx_done_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/shreg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shreg[15:0]</obj_property>
+      <obj_property name="ObjectShortName">shreg[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/shift_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">shift_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/shift_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">shift_en</obj_property>
+      <obj_property name="ObjectShortName">shift_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/clear_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clear_en</obj_property>
+      <obj_property name="ObjectShortName">clear_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/sb_stopbit" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">sb_stopbit</obj_property>
+      <obj_property name="ObjectShortName">sb_stopbit</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/count_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">count_en</obj_property>
+      <obj_property name="ObjectShortName">count_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/preg_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">preg_en</obj_property>
+      <obj_property name="ObjectShortName">preg_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/preg" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">preg[11:0]</obj_property>
+      <obj_property name="ObjectShortName">preg[11:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/done" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/fsclk_count" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">fsclk_count[3:0]</obj_property>
+      <obj_property name="ObjectShortName">fsclk_count[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/curr_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">curr_state</obj_property>
+      <obj_property name="ObjectShortName">curr_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialreciever/next_state" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">next_state</obj_property>
+      <obj_property name="ObjectShortName">next_state</obj_property>
+   </wvobject>
+   <wvobject fp_name="divider114" type="divider">
+      <obj_property name="label">sCLK_GEN</obj_property>
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="BkColor">128 128 255</obj_property>
+      <obj_property name="TextColor">230 230 230</obj_property>
+   </wvobject>
+   <wvobject fp_name="/sinwave_tb/UUT/serialclk/fsclk" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">fsclk</obj_property>
+      <obj_property name="ObjectShortName">fsclk</obj_property>
+   </wvobject>
+</wave_config>

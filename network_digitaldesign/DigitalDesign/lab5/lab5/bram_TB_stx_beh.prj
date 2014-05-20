@@ -1,0 +1,2 @@
+vhdl isim_temp "../../Lab4_new/lab4/bram_hlsm.vhd"
+vhdl isim_temp "bram_TB.vhd"

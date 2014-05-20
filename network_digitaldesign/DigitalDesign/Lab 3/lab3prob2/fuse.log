@@ -1,0 +1,19 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb_beh.prj" "work.wristwatch_tb" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb.vhd" Line 66: <wristwatch_display> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb.vhd" Line 66. Instance wristwatch_display is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling architecture behavior of entity wristwatch_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 3 VHDL Units
+Built simulation executable O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb_isim_beh.exe
+Fuse Memory Usage: 32236 KB
+Fuse CPU Usage: 420 ms

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="O:/network_digitaldesign/DigitalDesign/lab5/lab5/bram_TB_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="bram_tb" />
+            <top_module name="numeric_std" />
+            <top_module name="std_logic_1164" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="27" />
+   <wvobject fp_name="/bram_tb/clk25" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">clk25</obj_property>
+      <obj_property name="ObjectShortName">clk25</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/rx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/tx_data" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tx_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/douta" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">douta[7:0]</obj_property>
+      <obj_property name="ObjectShortName">douta[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/dina" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">dina[7:0]</obj_property>
+      <obj_property name="ObjectShortName">dina[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/rx_done_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">rx_done_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/tx_start_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_start_tick</obj_property>
+      <obj_property name="ObjectShortName">tx_start_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/tx_done_tick" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">tx_done_tick</obj_property>
+      <obj_property name="ObjectShortName">tx_done_tick</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/wea" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">wea</obj_property>
+      <obj_property name="ObjectShortName">wea</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/dump" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">dump</obj_property>
+      <obj_property name="ObjectShortName">dump</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/order" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">order</obj_property>
+      <obj_property name="ObjectShortName">order</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/w_addro" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">w_addro[4:0]</obj_property>
+      <obj_property name="ObjectShortName">w_addro[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/waddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">waddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">waddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/r_addro" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">r_addro[4:0]</obj_property>
+      <obj_property name="ObjectShortName">r_addro[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/raddr" type="array" db_ref_id="1">
+      <obj_property name="ElementShortName">raddr[4:0]</obj_property>
+      <obj_property name="ObjectShortName">raddr[4:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/w_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_en</obj_property>
+      <obj_property name="ObjectShortName">w_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/w_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_clr</obj_property>
+      <obj_property name="ObjectShortName">w_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/w_tc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">w_tc</obj_property>
+      <obj_property name="ObjectShortName">w_tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/debug" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">debug</obj_property>
+      <obj_property name="ObjectShortName">debug</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/r_en" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_en</obj_property>
+      <obj_property name="ObjectShortName">r_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/r_clr" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_clr</obj_property>
+      <obj_property name="ObjectShortName">r_clr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/r_ld" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_ld</obj_property>
+      <obj_property name="ObjectShortName">r_ld</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/r_tc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">r_tc</obj_property>
+      <obj_property name="ObjectShortName">r_tc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/e_light" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">e_light</obj_property>
+      <obj_property name="ObjectShortName">e_light</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/f_light" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">f_light</obj_property>
+      <obj_property name="ObjectShortName">f_light</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/ps" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ps</obj_property>
+      <obj_property name="ObjectShortName">ps</obj_property>
+   </wvobject>
+   <wvobject fp_name="/bram_tb/uut/ns" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">ns</obj_property>
+      <obj_property name="ObjectShortName">ns</obj_property>
+   </wvobject>
+</wave_config>

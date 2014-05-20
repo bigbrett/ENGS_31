@@ -1,0 +1,8 @@
+V3 3
+FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.vhd" 2013/07/17.22:47:40 P.49d
+EN work/cmplx_mag 1374118045 \
+      FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.vhd" \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/cmplx_mag/Behavioral 1374118046 \
+      FL "//thayerfs/d36937q/Desktop/Digitaldesign/Lab 3/lab3_prob5/cmplx_mag.vhd" \
+      EN work/cmplx_mag 1374118045

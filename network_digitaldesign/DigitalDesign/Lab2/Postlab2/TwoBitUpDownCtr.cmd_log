@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Postlab2/TwoBitUpDownCtr.xst" -ofn "O:/Desktop/Digitaldesign/Postlab2/TwoBitUpDownCtr.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-ft256-4 TwoBitUpDownCtr.ngc TwoBitUpDownCtr.ngd  
+map -intstyle ise -p xc3s500e-ft256-4 -cm area -ir off -pr off -c 100 -o TwoBitUpDownCtr_map.ncd TwoBitUpDownCtr.ngd TwoBitUpDownCtr.pcf 
+par -w -intstyle ise -ol high -t 1 TwoBitUpDownCtr_map.ncd TwoBitUpDownCtr.ncd TwoBitUpDownCtr.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml TwoBitUpDownCtr.twx TwoBitUpDownCtr.ncd -o TwoBitUpDownCtr.twr TwoBitUpDownCtr.pcf 

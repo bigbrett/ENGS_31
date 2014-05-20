@@ -1,0 +1,13 @@
+Running: C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\fuse.exe -intstyle ise -incremental -o C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/SerialRx_tb_isim_beh.exe -prj C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/SerialRx_tb_beh.prj work.SerialRx_tb 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 8
+Turning on mult-threading, number of parallel sub-compilation jobs: 16 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../SerialTx2.vhd" into library work
+Parsing VHDL file "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../SerialRX.vhd" into library work
+Parsing VHDL file "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../brg.vhd" into library work
+Parsing VHDL file "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../Lab4.vhd" into library work
+Parsing VHDL file "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../SerialRx_tb13x.vhd" into library work
+Starting static elaboration
+ERROR:HDLCompiler:1156 - "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/../SerialRx_tb13x.vhd" Line 35: Formal port <rx_data> does not exist in entity <Lab4>.  Please compare the definition of block <Lab4> to its component declaration and its instantion to detect the mismatch.
+ERROR:Simulator:777 - Static elaboration of top level VHDL design unit serialrx_tb in library work failed

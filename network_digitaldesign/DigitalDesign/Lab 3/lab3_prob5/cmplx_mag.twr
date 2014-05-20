@@ -1,0 +1,581 @@
+--------------------------------------------------------------------------------
+Release 14.4 Trace  (nt64)
+Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.4\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 4
+-n 3 -fastpaths -xml cmplx_mag.twx cmplx_mag.ncd -o cmplx_mag.twr cmplx_mag.pcf
+
+Design file:              cmplx_mag.ncd
+Physical constraint file: cmplx_mag.pcf
+Device,package,speed:     xc3s500e,cp132,-4 (PRODUCTION 1.27 2012-12-04)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+INFO:Timing:3390 - This architecture does not support a default System Jitter 
+   value, please add SYSTEM_JITTER constraint to the UCF to modify the Clock 
+   Uncertainty calculation.
+INFO:Timing:3389 - This architecture does not support 'Discrete Jitter' and 
+   'Phase Error' calculations, these terms will be zero in the Clock 
+   Uncertainty calculation.  Please make appropriate modification to 
+   SYSTEM_JITTER to account for the unsupported Discrete Jitter and Phase 
+   Error.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Clock A<0> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.271(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   15.852(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   16.120(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   16.795(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.219(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   17.946(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.060(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   17.746(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<1> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.106(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   15.687(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   15.955(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   16.630(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.054(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   17.781(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   16.895(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   17.581(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<2> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.351(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   15.932(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   16.200(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   16.875(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.299(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   18.026(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.140(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   17.826(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<3> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   13.905(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   14.486(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   14.754(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   15.429(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   15.853(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   16.580(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   15.694(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   16.380(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<4> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   13.819(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   14.400(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   14.668(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   15.343(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   15.767(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   16.494(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   15.608(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   16.294(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<5> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   13.202(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   13.783(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   14.051(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   14.726(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   15.150(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   15.877(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   14.991(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   15.677(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<6> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   13.196(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   13.777(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   14.045(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   14.720(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   15.144(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   15.871(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   14.985(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   15.671(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock A<7> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   13.667(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   14.248(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   14.516(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   15.191(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   15.615(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   16.342(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   15.456(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   16.142(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<0> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   16.176(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   16.757(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   17.025(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   17.700(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   18.124(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   18.851(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.965(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   18.651(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<1> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.946(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   16.527(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   16.795(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   17.470(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.894(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   18.621(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.735(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   18.421(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<2> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.795(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   16.376(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   16.644(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   17.319(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.743(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   18.470(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.584(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   18.270(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<3> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.392(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   15.973(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   16.241(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   16.916(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.340(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   18.067(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   17.181(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   17.867(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<4> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   14.396(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   14.977(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   15.245(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   15.920(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   16.344(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   17.071(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   16.185(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   16.871(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<5> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   12.374(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   12.955(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   13.223(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   13.898(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   14.322(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   15.049(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   14.163(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   14.849(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<6> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   12.509(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   13.090(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   13.358(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   14.033(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   14.457(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   15.184(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   14.298(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   14.984(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock B<7> to Pad
+------------+------------+--------------------------------+--------+
+            | clk (edge) |                                | Clock  |
+Destination |   to PAD   |Internal Clock(s)               | Phase  |
+------------+------------+--------------------------------+--------+
+Y<0>        |   15.098(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<1>        |   15.679(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<2>        |   15.947(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<3>        |   16.622(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<4>        |   17.046(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<5>        |   17.773(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<6>        |   16.887(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+Y<7>        |   17.573(R)|Mcompar_shift_b_cmp_gt0000_cy<7>|   0.000|
+------------+------------+--------------------------------+--------+
+
+Clock to Setup on destination clock A<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    2.337|    2.337|         |         |
+B<1>           |    2.107|    2.107|         |         |
+B<2>           |    1.956|    1.956|         |         |
+B<3>           |    1.553|    1.553|         |         |
+B<4>           |    0.557|    0.557|         |         |
+B<5>           |   -1.366|   -1.366|         |         |
+B<6>           |   -1.276|   -1.276|         |         |
+B<7>           |    1.358|    1.358|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.375|    1.375|         |         |
+B<1>           |    1.145|    1.145|         |         |
+B<2>           |    0.994|    0.994|         |         |
+B<3>           |    0.591|    0.591|         |         |
+B<4>           |   -0.405|   -0.405|         |         |
+B<5>           |   -2.328|   -2.328|         |         |
+B<6>           |   -2.238|   -2.238|         |         |
+B<7>           |    0.396|    0.396|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.315|    1.315|         |         |
+B<1>           |    1.085|    1.085|         |         |
+B<2>           |    0.934|    0.934|         |         |
+B<3>           |    0.531|    0.531|         |         |
+B<4>           |   -0.465|   -0.465|         |         |
+B<5>           |   -2.388|   -2.388|         |         |
+B<6>           |   -2.298|   -2.298|         |         |
+B<7>           |    0.336|    0.336|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.462|    1.462|         |         |
+B<1>           |    1.232|    1.232|         |         |
+B<2>           |    1.081|    1.081|         |         |
+B<3>           |    0.678|    0.678|         |         |
+B<4>           |   -0.318|   -0.318|         |         |
+B<5>           |   -2.241|   -2.241|         |         |
+B<6>           |   -2.151|   -2.151|         |         |
+B<7>           |    0.483|    0.483|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.856|    1.856|         |         |
+B<1>           |    1.626|    1.626|         |         |
+B<2>           |    1.475|    1.475|         |         |
+B<3>           |    1.072|    1.072|         |         |
+B<4>           |    0.076|    0.076|         |         |
+B<5>           |   -1.847|   -1.847|         |         |
+B<6>           |   -1.757|   -1.757|         |         |
+B<7>           |    0.877|    0.877|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.531|    1.531|         |         |
+B<1>           |    1.301|    1.301|         |         |
+B<2>           |    1.150|    1.150|         |         |
+B<3>           |    0.747|    0.747|         |         |
+B<4>           |   -0.249|   -0.249|         |         |
+B<5>           |   -2.172|   -2.172|         |         |
+B<6>           |   -2.082|   -2.082|         |         |
+B<7>           |    0.552|    0.552|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.468|    1.468|         |         |
+B<1>           |    1.238|    1.238|         |         |
+B<2>           |    1.087|    1.087|         |         |
+B<3>           |    0.684|    0.684|         |         |
+B<4>           |   -0.312|   -0.312|         |         |
+B<5>           |   -2.235|   -2.235|         |         |
+B<6>           |   -2.145|   -2.145|         |         |
+B<7>           |    0.489|    0.489|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock A<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.915|    1.915|         |         |
+B<1>           |    1.685|    1.685|         |         |
+B<2>           |    1.534|    1.534|         |         |
+B<3>           |    1.131|    1.131|         |         |
+B<4>           |    0.135|    0.135|         |         |
+B<5>           |   -1.788|   -1.788|         |         |
+B<6>           |   -1.698|   -1.698|         |         |
+B<7>           |    0.936|    0.936|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<0>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.824|    1.824|         |         |
+B<1>           |    1.594|    1.594|         |         |
+B<2>           |    1.443|    1.443|         |         |
+B<3>           |    1.040|    1.040|         |         |
+B<4>           |    0.044|    0.044|         |         |
+B<5>           |   -1.879|   -1.879|         |         |
+B<6>           |   -1.789|   -1.789|         |         |
+B<7>           |    0.845|    0.845|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<1>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.470|    1.470|         |         |
+B<1>           |    1.240|    1.240|         |         |
+B<2>           |    1.089|    1.089|         |         |
+B<3>           |    0.686|    0.686|         |         |
+B<4>           |   -0.310|   -0.310|         |         |
+B<5>           |   -2.233|   -2.233|         |         |
+B<6>           |   -2.143|   -2.143|         |         |
+B<7>           |    0.491|    0.491|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<2>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    0.900|    0.900|         |         |
+B<1>           |    0.670|    0.670|         |         |
+B<2>           |    0.519|    0.519|         |         |
+B<3>           |    0.116|    0.116|         |         |
+B<4>           |   -0.880|   -0.880|         |         |
+B<5>           |   -2.803|   -2.803|         |         |
+B<6>           |   -2.713|   -2.713|         |         |
+B<7>           |   -0.079|   -0.079|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<3>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.723|    1.723|         |         |
+B<1>           |    1.493|    1.493|         |         |
+B<2>           |    1.342|    1.342|         |         |
+B<3>           |    0.939|    0.939|         |         |
+B<4>           |   -0.057|   -0.057|         |         |
+B<5>           |   -1.980|   -1.980|         |         |
+B<6>           |   -1.890|   -1.890|         |         |
+B<7>           |    0.744|    0.744|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<4>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.906|    1.906|         |         |
+B<1>           |    1.676|    1.676|         |         |
+B<2>           |    1.525|    1.525|         |         |
+B<3>           |    1.122|    1.122|         |         |
+B<4>           |    0.126|    0.126|         |         |
+B<5>           |   -1.797|   -1.797|         |         |
+B<6>           |   -1.707|   -1.707|         |         |
+B<7>           |    0.927|    0.927|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<5>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    2.822|    2.822|         |         |
+B<1>           |    2.592|    2.592|         |         |
+B<2>           |    2.441|    2.441|         |         |
+B<3>           |    2.038|    2.038|         |         |
+B<4>           |    1.042|    1.042|         |         |
+B<5>           |   -0.881|   -0.881|         |         |
+B<6>           |   -0.791|   -0.791|         |         |
+B<7>           |    1.843|    1.843|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<6>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.885|    1.885|         |         |
+B<1>           |    1.655|    1.655|         |         |
+B<2>           |    1.504|    1.504|         |         |
+B<3>           |    1.101|    1.101|         |         |
+B<4>           |    0.105|    0.105|         |         |
+B<5>           |   -1.818|   -1.818|         |         |
+B<6>           |   -1.728|   -1.728|         |         |
+B<7>           |    0.906|    0.906|         |         |
+---------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock B<7>
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+B<0>           |    1.233|    1.233|         |         |
+B<1>           |    1.003|    1.003|         |         |
+B<2>           |    0.852|    0.852|         |         |
+B<3>           |    0.449|    0.449|         |         |
+B<4>           |   -0.547|   -0.547|         |         |
+B<5>           |   -2.470|   -2.470|         |         |
+B<6>           |   -2.380|   -2.380|         |         |
+B<7>           |    0.254|    0.254|         |         |
+---------------+---------+---------+---------+---------+
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+A<0>           |Y<0>           |    8.079|
+A<0>           |Y<1>           |    8.660|
+A<0>           |Y<2>           |    8.428|
+A<0>           |Y<3>           |    9.103|
+A<0>           |Y<4>           |   10.589|
+A<0>           |Y<5>           |   11.490|
+A<0>           |Y<6>           |   10.876|
+A<0>           |Y<7>           |   11.680|
+A<1>           |Y<1>           |    7.148|
+A<1>           |Y<2>           |    8.096|
+A<1>           |Y<3>           |    8.945|
+A<1>           |Y<4>           |   10.424|
+A<1>           |Y<5>           |   11.325|
+A<1>           |Y<6>           |   10.711|
+A<1>           |Y<7>           |   11.515|
+A<2>           |Y<2>           |    8.172|
+A<2>           |Y<3>           |    9.021|
+A<2>           |Y<4>           |   10.669|
+A<2>           |Y<5>           |   11.570|
+A<2>           |Y<6>           |   10.956|
+A<2>           |Y<7>           |   11.760|
+A<3>           |Y<3>           |    7.063|
+A<3>           |Y<4>           |    9.840|
+A<3>           |Y<5>           |   10.741|
+A<3>           |Y<6>           |   10.127|
+A<3>           |Y<7>           |   10.813|
+A<4>           |Y<4>           |    9.348|
+A<4>           |Y<5>           |   10.249|
+A<4>           |Y<6>           |    9.635|
+A<4>           |Y<7>           |   10.321|
+A<5>           |Y<5>           |    8.136|
+A<5>           |Y<6>           |    8.751|
+A<5>           |Y<7>           |    9.611|
+A<6>           |Y<6>           |    8.745|
+A<6>           |Y<7>           |    9.605|
+A<7>           |Y<1>           |    7.481|
+A<7>           |Y<2>           |    8.598|
+A<7>           |Y<3>           |    9.447|
+A<7>           |Y<4>           |   10.132|
+A<7>           |Y<5>           |   10.973|
+A<7>           |Y<6>           |   10.359|
+A<7>           |Y<7>           |   11.045|
+---------------+---------------+---------+
+
+
+Analysis completed Wed Jul 17 23:28:46 2013 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 167 MB
+
+
+

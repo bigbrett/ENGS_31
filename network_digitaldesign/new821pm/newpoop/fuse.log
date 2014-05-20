@@ -1,0 +1,35 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/new821pm/newpoop/sinwave_tb_isim_beh.exe" -prj "C:/new821pm/newpoop/sinwave_tb_beh.prj" "work.sinwave_tb" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/new821pm/newpoop/s_rate_GEN.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/SerialRX.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/fSCLK_GEN.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/freqcalc.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/controller.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/comparator.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/topleveltuner.vhd" into library work
+Parsing VHDL file "C:/new821pm/newpoop/sinwave_tb.vhd" into library work
+Starting static elaboration
+Completed static elaboration
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package math_real
+Compiling package vcomponents
+Compiling architecture behavioral of entity controller [controller_default]
+Compiling architecture behavioral of entity SerialRX [serialrx_default]
+Compiling architecture bufg_v of entity BUFG [bufg_default]
+Compiling architecture behavioral of entity fSCLK_GEN [fsclk_gen_default]
+Compiling architecture behavioral of entity freqcalc [freqcalc_default]
+Compiling architecture behavioral of entity comparator [comparator_default]
+Compiling architecture behavioral of entity s_rate_GEN [s_rate_gen_default]
+Compiling architecture behavioral of entity topleveltuner [topleveltuner_default]
+Compiling architecture behavior of entity sinwave_tb
+Time Resolution for simulation is 1ps.
+Waiting for 6 sub-compilation(s) to finish...
+Compiled 22 VHDL Units
+Built simulation executable C:/new821pm/newpoop/sinwave_tb_isim_beh.exe
+Fuse Memory Usage: 48492 KB
+Fuse CPU Usage: 795 ms

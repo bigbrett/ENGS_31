@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_tb_beh.prj" "work.wristwatch_tb" 

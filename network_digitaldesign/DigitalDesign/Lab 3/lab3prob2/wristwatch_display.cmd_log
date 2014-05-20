@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s500e-cp132-4 "wristwatch_display.ngc" wristwatch_display.ngd  
+map -intstyle ise -p xc3s500e-cp132-4 -cm area -ir off -pr off -c 100 -o wristwatch_display_map.ncd wristwatch_display.ngd wristwatch_display.pcf 
+par -w -intstyle ise -ol high -t 1 wristwatch_display_map.ncd wristwatch_display.ncd wristwatch_display.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml wristwatch_display.twx wristwatch_display.ncd -o wristwatch_display.twr wristwatch_display.pcf 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2/wristwatch_display.syr" 

@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/wristwatch_display.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/wristwatch_display.xst" -ofn "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/wristwatch_display.syr" 

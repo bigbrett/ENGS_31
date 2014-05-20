@@ -1,0 +1,5 @@
+vhdl work "../SerialRX.vhd"
+vhdl work "../fSCLK_GEN.vhd"
+vhdl work "../delT_timer.vhd"
+vhdl work "../controller.vhd"
+vhdl work "../topleveltuner.vhd"

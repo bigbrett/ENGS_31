@@ -1,0 +1,14 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.xst" -ofn "O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/tail_light.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc3s100e-cp132-4 tail_light.ngc tail_light.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o tail_light_map.ncd tail_light.ngd tail_light.pcf 
+par -w -intstyle ise -ol high -t 1 tail_light_map.ncd tail_light.ncd tail_light.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml tail_light.twx tail_light.ncd -o tail_light.twr tail_light.pcf 

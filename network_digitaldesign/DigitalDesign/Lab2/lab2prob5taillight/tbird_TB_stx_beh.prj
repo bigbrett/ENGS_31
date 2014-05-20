@@ -1,0 +1,2 @@
+vhdl isim_temp "tail_light.vhd"
+vhdl isim_temp "tbird_TB.vhd"

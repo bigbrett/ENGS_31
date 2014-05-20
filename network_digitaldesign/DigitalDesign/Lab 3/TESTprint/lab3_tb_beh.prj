@@ -1,0 +1,2 @@
+vhdl work "../../../LAB_3_CODE.vhd"
+vhdl work "../../../lab3_tb_PRINT.vhd"

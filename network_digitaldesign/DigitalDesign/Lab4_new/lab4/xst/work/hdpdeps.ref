@@ -1,0 +1,14 @@
+V3 6
+FL C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd 2013/08/01.03:13:59 P.49d
+EN work/bram_hlsm 1375341245 \
+      FL C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/bram_hlsm/Behavioral 1375341246 \
+      FL C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd \
+      EN work/bram_hlsm 1375341245
+FL C:/BrettNicholas/DigitalDesign/Lab4_new/SerialRX.vhd 2013/07/30.15:48:33 P.49d
+EN work/SerialRX 1375316010 \
+      FL C:/BrettNicholas/DigitalDesign/Lab4_new/SerialRX.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/SerialRX/Behavioral 1375316011 \
+      FL C:/BrettNicholas/DigitalDesign/Lab4_new/SerialRX.vhd EN work/SerialRX 1375316010

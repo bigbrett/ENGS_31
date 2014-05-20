@@ -1,0 +1,133 @@
+ISim log file
+Running: C:\Users\d36937q\Desktop\LAB_LOCAL_8-6\proj_new1\bram_TB_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/bram_TB_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# restart
+# run 6 ms
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+# restart
+# run 6 ms
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+at 0 ps, Instance /bram_tb/uut/U3/ : Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+Finished circuit initialization process.
+# run 6 ms
+at 144200 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+
+at 144220 ns(1): Note: Block Memory Generator CORE Generator module is using a behavioral model FOR simulation which will not precisely model memory collision behavior. (/bram_tb/uut/BRAM/U0/native_mem_module/mem_module/).
+at 144220 ns(1), Instance /bram_tb/uut/BRAM/U0/native_mem_module/mem_module/ : Warning: blk_mem_gen_v7_3 WARNING: collision detected: A write address: 00000, B read address: 00000
+

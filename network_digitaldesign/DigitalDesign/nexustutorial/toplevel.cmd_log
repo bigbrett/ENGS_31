@@ -1,0 +1,4 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.xst" -ofn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.xst" -ofn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.xst" -ofn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.xst" -ofn "O:/Desktop/Digitaldesign/nexustutorial/toplevel.syr" 

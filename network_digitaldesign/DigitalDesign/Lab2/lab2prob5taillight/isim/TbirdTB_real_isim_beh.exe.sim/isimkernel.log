@@ -1,0 +1,28 @@
+Command line:
+   TbirdTB_real_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  51795
+
+Wed Jul 10 16:09:23 2013
+
+
+ Elaboration Time: 0.0312 sec
+
+ Current Memory Usage: 825.332 Meg
+
+ Total Signals          : 23
+ Total Nets             : 18
+ Total Signal Drivers   : 13
+ Total Blocks           : 3
+ Total Primitive Blocks : 2
+ Total Processes        : 10
+ Total Traceable Variables  : 9
+ Total Scalar Nets and Variables : 379
+
+ Total Simulation Time: 0.171601 sec
+
+ Current Memory Usage: 668.045 Meg
+
+Wed Jul 10 16:15:14 2013
+

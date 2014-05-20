@@ -1,0 +1,7 @@
+vhdl work "../../finallab/SerialTx2.vhd"
+vhdl work "../../finallab/SerialRX.vhd"
+vhdl work "../../finallab/ipcore_dir/lab5_mem_BN.vhd"
+vhdl work "../../finallab/debounce.vhd"
+vhdl work "../../finallab/brg.vhd"
+vhdl work "../../finallab/bram_hlsm.vhd"
+vhdl work "../../finallab/Lab4.vhd"

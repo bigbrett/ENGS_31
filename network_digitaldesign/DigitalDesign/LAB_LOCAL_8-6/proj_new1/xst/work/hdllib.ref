@@ -1,0 +1,14 @@
+AR bram_hlsm behavioral C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/bram_hlsm.vhd sub00/vhpl07 1375840905
+EN brg NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/brg.vhd sub00/vhpl00 1375840898
+EN bram_hlsm NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/bram_hlsm.vhd sub00/vhpl06 1375840904
+EN serialrx NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/SerialRX.vhd sub00/vhpl02 1375840900
+EN serialtx NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/SerialTx2.vhd sub00/vhpl04 1375840902
+EN lab4 NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Lab4.vhd sub00/vhpl10 1375840910
+EN ubernewbram NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/ubernewBRAM.vhd sub00/vhpl12 1375840906
+EN debounce NULL C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/debounce.vhd sub00/vhpl08 1375840908
+AR lab4 behavioral C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/Lab4.vhd sub00/vhpl11 1375840911
+AR debounce logic C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/debounce.vhd sub00/vhpl09 1375840909
+AR serialtx behavioral C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/SerialTx2.vhd sub00/vhpl05 1375840903
+AR ubernewbram ubernewbram_a C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/ubernewBRAM.vhd sub00/vhpl13 1375840907
+AR brg behavioral C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/brg.vhd sub00/vhpl01 1375840899
+AR serialrx behavioral C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/finallab/SerialRX.vhd sub00/vhpl03 1375840901

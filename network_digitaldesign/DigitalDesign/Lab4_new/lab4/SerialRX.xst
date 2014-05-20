@@ -1,0 +1,5 @@
+set -tmpdir "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/xst/projnav.tmp"
+set -xsthdpdir "C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/xst"
+elaborate
+-ifn SerialRX.prj
+-ifmt mixed

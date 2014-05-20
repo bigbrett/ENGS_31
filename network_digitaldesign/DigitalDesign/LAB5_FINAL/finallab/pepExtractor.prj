@@ -1,0 +1,7 @@
+work	"../../Lab4_new/Lab4.vhd"
+work	"../../Lab4_new/SerialRX.vhd"
+work	"../../Lab4_new/SerialTx2.vhd"
+work	"../../Lab4_new/brg.vhd"
+work	"../../Lab4_new/lab4/bram_hlsm.vhd"
+work	"debounce.vhd"
+work	"ipcore_dir/lab5_mem_BN.vhd"

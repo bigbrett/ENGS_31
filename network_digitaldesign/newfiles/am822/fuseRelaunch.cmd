@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/newfiles/am822/sinwave_tb_isim_beh.exe" -prj "C:/newfiles/am822/sinwave_tb_beh.prj" "work.sinwave_tb" 

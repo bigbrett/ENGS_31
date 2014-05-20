@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\new821pm\newpoop\topleveltuner.ncd
+OUTFILE=C:\new821pm\newpoop\topleveltuner.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=C:\new821pm\newpoop
+LICENSE=ISE
+USER_INFO=210643936_1777485687_210562918_764

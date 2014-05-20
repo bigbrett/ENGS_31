@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/bram_TB_isim_beh.exe" -prj "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/bram_TB_beh.prj" "work.bram_TB" 

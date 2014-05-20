@@ -1,0 +1,8 @@
+V3 3
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd 2013/08/01.14:44:53 P.49d
+EN work/bram_hlsm 1375382706 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/bram_hlsm/Behavioral 1375382707 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd \
+      EN work/bram_hlsm 1375382706

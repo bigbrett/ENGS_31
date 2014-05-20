@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<generated_project xmlns="http://www.xilinx.com/XMLSchema" xmlns:xil_pn="http://www.xilinx.com/XMLSchema">
+
+  <!--                                                          -->
+
+  <!--             For tool use only. Do not edit.              -->
+
+  <!--                                                          -->
+
+  <!-- ProjectNavigator created generated project file.         -->
+
+  <!-- For use in tracking generated file and other information -->
+
+  <!-- allowing preservation of process status.                 -->
+
+  <!--                                                          -->
+
+  <!-- Copyright (c) 1995-2012 Xilinx, Inc.  All rights reserved. -->
+
+  <version xmlns="http://www.xilinx.com/XMLSchema">11.1</version>
+
+  <sourceproject xmlns="http://www.xilinx.com/XMLSchema" xil_pn:fileType="FILE_XISE" xil_pn:name="lab_5_module.xise"/>
+
+  <files xmlns="http://www.xilinx.com/XMLSchema">
+    <file xil_pn:fileType="FILE_ASY" xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.asy" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.ngc" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_SYMBOL" xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.sym" xil_pn:origination="imported"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_VHDL" xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.vhd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_VHO" xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.vho" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_CMD_LOG" xil_pn:name="Lab4.cmd_log"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_LSO" xil_pn:name="Lab4.lso"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGC" xil_pn:name="Lab4.ngc"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_NGR" xil_pn:name="Lab4.ngr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Lab4.prj"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_STX" xil_pn:name="Lab4.stx"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_REPORT" xil_pn:name="Lab4.syr"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST" xil_pn:name="Lab4.xst"/>
+    <file xil_pn:fileType="FILE_NCD" xil_pn:name="Lab4_guide.ncd" xil_pn:origination="imported"/>
+    <file xil_pn:fileType="FILE_HTML" xil_pn:name="Lab4_summary.html"/>
+    <file xil_pn:branch="Implementation" xil_pn:fileType="FILE_XST_PROJECT" xil_pn:name="Lab4_vhdl.prj"/>
+    <file xil_pn:fileType="FILE_XRPT" xil_pn:name="Lab4_xst.xrpt"/>
+    <file xil_pn:fileType="FILE_XMSGS" xil_pn:name="_xmsgs/xst.xmsgs"/>
+    <file xil_pn:fileType="FILE_FITTER_REPORT" xil_pn:name="webtalk_pn.xml"/>
+    <file xil_pn:fileType="FILE_DIRECTORY" xil_pn:name="xst"/>
+  </files>
+
+  <transforms xmlns="http://www.xilinx.com/XMLSchema">
+    <transform xil_pn:end_ts="1375815362" xil_pn:name="TRAN_schematicsToHdl" xil_pn:prop_ck="-6124319169234174136" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1375815362" xil_pn:in_ck="2288657889794151958" xil_pn:name="TRAN_regenerateCores" xil_pn:prop_ck="-5101630663821185071" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.ngc"/>
+      <outfile xil_pn:name="../../finallab/ipcore_dir/lab5_mem_BN.vhd"/>
+    </transform>
+    <transform xil_pn:end_ts="1375755378" xil_pn:in_ck="7789280327003553319" xil_pn:name="TRAN_SubProjectAbstractToPreProxy" xil_pn:start_ts="1375755378">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1375815362" xil_pn:name="TRAN_xawsTohdl" xil_pn:prop_ck="7985683134043008390" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1375815362" xil_pn:in_ck="1738734068368814917" xil_pn:name="TRAN_SubProjectPreToStructuralProxy" xil_pn:prop_ck="2988080280822507185" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1375815362" xil_pn:name="TRAN_platgen" xil_pn:prop_ck="-2900683892419976869" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="ReadyToRun"/>
+    </transform>
+    <transform xil_pn:end_ts="1375815375" xil_pn:in_ck="-6156952070157319774" xil_pn:name="TRANEXT_xstsynthesize_spartan3e" xil_pn:prop_ck="7784292469999707246" xil_pn:start_ts="1375815362">
+      <status xil_pn:value="SuccessfullyRun"/>
+      <status xil_pn:value="WarningsGenerated"/>
+      <status xil_pn:value="ReadyToRun"/>
+      <outfile xil_pn:name="Lab4.lso"/>
+      <outfile xil_pn:name="Lab4.ngc"/>
+      <outfile xil_pn:name="Lab4.ngr"/>
+      <outfile xil_pn:name="Lab4.prj"/>
+      <outfile xil_pn:name="Lab4.stx"/>
+      <outfile xil_pn:name="Lab4.syr"/>
+      <outfile xil_pn:name="Lab4.xst"/>
+      <outfile xil_pn:name="Lab4_vhdl.prj"/>
+      <outfile xil_pn:name="Lab4_xst.xrpt"/>
+      <outfile xil_pn:name="_xmsgs/xst.xmsgs"/>
+      <outfile xil_pn:name="webtalk_pn.xml"/>
+      <outfile xil_pn:name="xst"/>
+    </transform>
+  </transforms>
+
+</generated_project>

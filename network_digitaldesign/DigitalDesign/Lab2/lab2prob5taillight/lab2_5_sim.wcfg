@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="O:/Desktop/Digitaldesign/Lab2/lab2prob5taillight/TbirdTB_real_isim_beh.wdb" id="1" type="auto">
+         <top_modules>
+            <top_module name="std_logic_1164" />
+            <top_module name="tbirdtb_real" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <WVObjectSize size="11" />
+   <wvobject fp_name="/tbirdtb_real/clk" type="logic" db_ref_id="1">
+      <obj_property name="DisplayName">label</obj_property>
+      <obj_property name="ElementShortName">clk</obj_property>
+      <obj_property name="ObjectShortName">clk</obj_property>
+      <obj_property name="label">clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/left" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">left</obj_property>
+      <obj_property name="ObjectShortName">left</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/right" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">right</obj_property>
+      <obj_property name="ObjectShortName">right</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/hazard" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">hazard</obj_property>
+      <obj_property name="ObjectShortName">hazard</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/lc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lc</obj_property>
+      <obj_property name="ObjectShortName">lc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/lb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">lb</obj_property>
+      <obj_property name="ObjectShortName">lb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/la" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">la</obj_property>
+      <obj_property name="ObjectShortName">la</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/rc" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rc</obj_property>
+      <obj_property name="ObjectShortName">rc</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/rb" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">rb</obj_property>
+      <obj_property name="ObjectShortName">rb</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/ra" type="logic" db_ref_id="1">
+      <obj_property name="ElementShortName">ra</obj_property>
+      <obj_property name="ObjectShortName">ra</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tbirdtb_real/clk_period" type="other" db_ref_id="1">
+      <obj_property name="ElementShortName">clk_period</obj_property>
+      <obj_property name="ObjectShortName">clk_period</obj_property>
+   </wvobject>
+</wave_config>

@@ -1,0 +1,145 @@
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+vhdtdtfi -prj am822 -o C:/newfiles/am822/topleveltuner.vhi -module topleveltuner -template C:/Xilinx/14.4/ISE_DS/ISE//data/vhdlinst.tft -deleteonerror -lib work ../s_rate_GEN.vhd -lib work ../SerialRX.vhd -lib work ../fSCLK_GEN.vhd -lib work ../freqcalc.vhd -lib work ../controller.vhd -lib work ../comparator.vhd -lib work ../topleveltuner.vhd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 
+xst -intstyle ise -ifn "C:/newfiles/am822/topleveltuner.xst" -ofn "C:/newfiles/am822/topleveltuner.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd .. -nt timestamp -uc C:/newfiles/ultranewucf.ucf -p xc3s100e-cp132-4 topleveltuner.ngc topleveltuner.ngd  
+map -intstyle ise -p xc3s100e-cp132-4 -cm area -ir off -pr off -c 100 -o topleveltuner_map.ncd topleveltuner.ngd topleveltuner.pcf 
+par -w -intstyle ise -ol high -t 1 topleveltuner_map.ncd topleveltuner.ncd topleveltuner.pcf 
+trce -intstyle ise -v 3 -s 4 -n 3 -fastpaths -xml topleveltuner.twx topleveltuner.ncd -o topleveltuner.twr topleveltuner.pcf 
+bitgen -intstyle ise -f topleveltuner.ut topleveltuner.ncd 

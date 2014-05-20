@@ -1,0 +1,10 @@
+Command line:
+   sinwave_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  49353
+
+Fri Aug 23 20:07:31 2013
+
+
+ Elaboration Time: 0.0624 sec

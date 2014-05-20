@@ -1,0 +1,5 @@
+set -tmpdir "C:/loc821/tuner1/xst/projnav.tmp"
+set -xsthdpdir "C:/loc821/tuner1/xst"
+elaborate
+-ifn comparator.prj
+-ifmt mixed

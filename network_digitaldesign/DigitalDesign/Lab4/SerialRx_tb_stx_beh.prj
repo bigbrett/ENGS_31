@@ -1,0 +1,4 @@
+vhdl isim_temp "SerialRX.vhd"
+vhdl isim_temp "brg.vhd"
+vhdl isim_temp "Lab4.vhd"
+vhdl isim_temp "SerialRx_tb13x.vhd"

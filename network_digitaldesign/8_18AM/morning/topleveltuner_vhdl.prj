@@ -1,0 +1,7 @@
+vhdl work "C:\8_18AM\s_rate_GEN.vhd"
+vhdl work "C:\8_18AM\SerialRX.vhd"
+vhdl work "C:\8_18AM\fSCLK_GEN.vhd"
+vhdl work "C:\8_18AM\freqcalc.vhd"
+vhdl work "C:\8_18AM\controller.vhd"
+vhdl work "C:\8_18AM\comparator.vhd"
+vhdl work "C:\8_18AM\topleveltuner.vhd"

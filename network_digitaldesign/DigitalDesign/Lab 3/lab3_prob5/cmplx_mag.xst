@@ -1,0 +1,5 @@
+set -tmpdir "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/xst/projnav.tmp"
+set -xsthdpdir "O:/Desktop/Digitaldesign/Lab 3/lab3_prob5/xst"
+elaborate
+-ifn cmplx_mag.prj
+-ifmt mixed

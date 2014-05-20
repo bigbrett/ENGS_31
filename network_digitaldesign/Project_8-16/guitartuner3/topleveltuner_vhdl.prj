@@ -1,0 +1,5 @@
+vhdl work "C:\Project_8-16\SerialRX.vhd"
+vhdl work "C:\Project_8-16\fSCLK_GEN.vhd"
+vhdl work "C:\Project_8-16\delT_timer.vhd"
+vhdl work "C:\Project_8-16\controller.vhd"
+vhdl work "C:\Project_8-16\topleveltuner.vhd"

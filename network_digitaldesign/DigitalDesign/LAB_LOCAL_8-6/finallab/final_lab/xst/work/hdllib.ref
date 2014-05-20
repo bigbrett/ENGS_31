@@ -1,0 +1,12 @@
+AR bram_hlsm behavioral //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/bram_hlsm.vhd sub00/vhpl07 1375815699
+EN brg NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/brg.vhd sub00/vhpl00 1375815692
+EN bram_hlsm NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/bram_hlsm.vhd sub00/vhpl06 1375815698
+EN serialrx NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialRX.vhd sub00/vhpl02 1375815694
+EN serialtx NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialTx2.vhd sub00/vhpl04 1375815696
+EN lab4 NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/Lab4.vhd sub00/vhpl10 1375815702
+EN debounce NULL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/debounce.vhd sub00/vhpl08 1375815700
+AR lab4 behavioral //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/Lab4.vhd sub00/vhpl11 1375815703
+AR debounce logic //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/debounce.vhd sub00/vhpl09 1375815701
+AR serialtx behavioral //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialTx2.vhd sub00/vhpl05 1375815697
+AR brg behavioral //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/brg.vhd sub00/vhpl01 1375815693
+AR serialrx behavioral //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialRX.vhd sub00/vhpl03 1375815695

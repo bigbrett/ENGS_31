@@ -1,0 +1,44 @@
+V3 25
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/bram_hlsm.vhd 2013/08/06.00:10:02 P.49d
+EN work/bram_hlsm 1375815698 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/bram_hlsm.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/bram_hlsm/Behavioral 1375815699 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/bram_hlsm.vhd \
+      EN work/bram_hlsm 1375815698
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/brg.vhd 2013/07/30.15:45:34 P.49d
+EN work/brg 1375815692 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/brg.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/brg/Behavioral 1375815693 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/brg.vhd \
+      EN work/brg 1375815692
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/debounce.vhd 2013/08/01.20:55:33 P.49d
+EN work/debounce 1375815700 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/debounce.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/STD_LOGIC_UNSIGNED 1354696162
+AR work/debounce/logic 1375815701 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/debounce.vhd \
+      EN work/debounce 1375815700
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/Lab4.vhd 2013/08/03.18:54:11 P.49d
+EN work/Lab4 1375815702 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/Lab4.vhd \
+      PB ieee/std_logic_1164 1354696159
+AR work/Lab4/Behavioral 1375815703 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/Lab4.vhd \
+      EN work/Lab4 1375815702 CP brg CP SerialRX CP SerialTX CP mux7seg CP bram_hlsm \
+      CP lab5_mem_BN CP debounce
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialRX.vhd 2013/07/30.15:48:33 P.49d
+EN work/SerialRX 1375815694 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialRX.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/SerialRX/Behavioral 1375815695 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialRX.vhd \
+      EN work/SerialRX 1375815694
+FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialTx2.vhd 2013/07/30.15:48:56 P.49d
+EN work/SerialTx 1375815696 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialTx2.vhd \
+      PB ieee/std_logic_1164 1354696159 PB ieee/NUMERIC_STD 1354696164
+AR work/SerialTx/Behavioral 1375815697 \
+      FL //thayerfs/d36937q/network_digitaldesign/DigitalDesign/finallab/SerialTx2.vhd \
+      EN work/SerialTx 1375815696

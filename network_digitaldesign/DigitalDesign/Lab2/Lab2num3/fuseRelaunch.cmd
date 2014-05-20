@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "O:/Desktop/Digitaldesign/Lab2num3/UDcounter_isim_beh.exe" -prj "O:/Desktop/Digitaldesign/Lab2num3/UDcounter_beh.prj" "work.UDcounter" 

@@ -1,0 +1,8 @@
+vhdl work "../../8-20/s_rate_GEN.vhd"
+vhdl work "../../8-20/SerialRX.vhd"
+vhdl work "../../8-20/fSCLK_GEN.vhd"
+vhdl work "../../8-20/freqcalc.vhd"
+vhdl work "../../8-20/controller.vhd"
+vhdl work "../../8-20/comparator.vhd"
+vhdl work "../../8-20/topleveltuner.vhd"
+vhdl work "../../8-20/sinwave_tb.vhd"

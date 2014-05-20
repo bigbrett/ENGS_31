@@ -1,0 +1,2 @@
+vhdl isim_temp "TwoBitUpDownCtr[1].vhd"
+vhdl isim_temp "Lab2_updown_tb[1].vhd"

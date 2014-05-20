@@ -1,0 +1,42 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/bram_TB_isim_beh.exe" -prj "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/bram_TB_beh.prj" "work.bram_TB" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/ubernewBRAM.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/SerialTx2.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/SerialRX.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/debounce.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/brg.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/bram_hlsm.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/Lab4.vhd" into library work
+Parsing VHDL file "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/bram_TB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/Lab4.vhd" Line 168: <mux7seg> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/../finallab/Lab4.vhd" Line 168. Instance mux7seg is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity brg [brg_default]
+Compiling architecture behavioral of entity SerialRX [serialrx_default]
+Compiling architecture behavioral of entity SerialTx [serialtx_default]
+Compiling architecture behavioral of entity bram_hlsm [bram_hlsm_default]
+Compiling package textio
+Compiling package std_logic_textio
+Compiling architecture output_stage_behavioral of entity BLK_MEM_GEN_V7_3_output_stage [\BLK_MEM_GEN_V7_3_output_stage("...]
+Compiling architecture softecc_output_reg_stage_behavioral of entity BLK_MEM_GEN_V7_3_softecc_output_reg_stage [\BLK_MEM_GEN_V7_3_softecc_output...]
+Compiling architecture mem_module_behavioral of entity BLK_MEM_GEN_V7_3_mem_module [\BLK_MEM_GEN_V7_3_mem_module("bl...]
+Compiling architecture behavioral of entity BLK_MEM_GEN_V7_3 [\BLK_MEM_GEN_V7_3("blk_mem_gen_v...]
+Compiling architecture ubernewbram_a of entity ubernewBRAM [ubernewbram_default]
+Compiling architecture logic of entity debounce [debounce_default]
+Compiling architecture behavioral of entity Lab4 [lab4_default]
+Compiling architecture behavior of entity bram_tb
+Time Resolution for simulation is 1ps.
+Waiting for 11 sub-compilation(s) to finish...
+Compiled 30 VHDL Units
+Built simulation executable C:/Users/d36937q/Desktop/LAB_LOCAL_8-6/proj_new1/bram_TB_isim_beh.exe
+Fuse Memory Usage: 40596 KB
+Fuse CPU Usage: 873 ms

@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=O:\network_digitaldesign\DigitalDesign\lab5\lab_5_module\Lab4.ncd
+OUTFILE=O:\network_digitaldesign\DigitalDesign\lab5\lab_5_module\Lab4.bit
+FAMILY=Spartan3E
+PART=xc3s100e-4cp132
+WORKINGDIR=O:\network_digitaldesign\DigitalDesign\lab5\lab_5_module
+LICENSE=ISE
+USER_INFO=210643936_1777485687_210562918_764

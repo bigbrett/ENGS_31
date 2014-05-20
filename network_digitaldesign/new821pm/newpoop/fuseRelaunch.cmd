@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -o "C:/new821pm/newpoop/sinwave_tb_isim_beh.exe" -prj "C:/new821pm/newpoop/sinwave_tb_beh.prj" "work.sinwave_tb" 

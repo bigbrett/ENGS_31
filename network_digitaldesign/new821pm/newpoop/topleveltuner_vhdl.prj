@@ -1,0 +1,7 @@
+vhdl work "C:\new821pm\newpoop\s_rate_GEN.vhd"
+vhdl work "C:\new821pm\newpoop\SerialRX.vhd"
+vhdl work "C:\new821pm\newpoop\fSCLK_GEN.vhd"
+vhdl work "C:\new821pm\newpoop\freqcalc.vhd"
+vhdl work "C:\new821pm\newpoop\controller.vhd"
+vhdl work "C:\new821pm\newpoop\comparator.vhd"
+vhdl work "C:\new821pm\newpoop\topleveltuner.vhd"

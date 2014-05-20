@@ -1,0 +1,28 @@
+Command line:
+   tail_light_isim_beh.exe
+     -simmode  gui
+     -simrunnum  1
+     -socket  51158
+
+Wed Jul 10 15:17:15 2013
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 825.328 Meg
+
+ Total Signals          : 4
+ Total Nets             : 9
+ Total Signal Drivers   : 1
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 0
+ Total Traceable Variables  : 8
+ Total Scalar Nets and Variables : 369
+
+ Total Simulation Time: 0.0624 sec
+
+ Current Memory Usage: 825.328 Meg
+
+Wed Jul 10 15:17:23 2013
+

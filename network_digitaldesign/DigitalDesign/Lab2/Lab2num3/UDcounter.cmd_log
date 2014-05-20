@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2num3/UDcounter.xst" -ofn "O:/Desktop/Digitaldesign/Lab2num3/UDcounter.syr" 
+xst -intstyle ise -ifn "O:/Desktop/Digitaldesign/Lab2num3/UDcounter.xst" -ofn "O:/Desktop/Digitaldesign/Lab2num3/UDcounter.syr" 

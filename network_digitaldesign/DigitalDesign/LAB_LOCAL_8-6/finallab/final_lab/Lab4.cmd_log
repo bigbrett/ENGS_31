@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/Lab4.xst" -ofn "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/Lab4.syr" 

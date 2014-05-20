@@ -1,0 +1,4 @@
+AR bram_hlsm behavioral C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd sub00/vhpl03 1375341246
+EN bram_hlsm NULL C:/BrettNicholas/DigitalDesign/Lab4_new/lab4/bram_hlsm.vhd sub00/vhpl02 1375341245
+EN serialrx NULL C:/BrettNicholas/DigitalDesign/Lab4_new/SerialRX.vhd sub00/vhpl00 1375316010
+AR serialrx behavioral C:/BrettNicholas/DigitalDesign/Lab4_new/SerialRX.vhd sub00/vhpl01 1375316011

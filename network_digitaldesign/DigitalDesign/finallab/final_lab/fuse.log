@@ -1,0 +1,36 @@
+Running: fuse.exe -relaunch -intstyle "ise" -incremental -o "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/bram_TB_isim_beh.exe" -prj "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/bram_TB_beh.prj" "work.bram_TB" 
+ISim P.49d (signature 0x7708f090)
+Number of CPUs detected in this system: 4
+Turning on mult-threading, number of parallel sub-compilation jobs: 8 
+Determining compilation order of HDL files
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../SerialTx2.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../SerialRX.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../debounce.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../brg.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../bram_hlsm.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../Lab4.vhd" into library work
+Parsing VHDL file "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../bram_TB.vhd" into library work
+Starting static elaboration
+WARNING:HDLCompiler:89 - "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../Lab4.vhd" Line 168: <mux7seg> remains a black-box since it has no binding entity.
+WARNING:HDLCompiler:89 - "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../Lab4.vhd" Line 204: <lab5_mem_bn> remains a black-box since it has no binding entity.
+Completed static elaboration
+WARNING:Simulator:648 - "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../Lab4.vhd" Line 168. Instance mux7seg is unbound
+WARNING:Simulator:648 - "O:/network_digitaldesign/DigitalDesign/finallab/final_lab/../Lab4.vhd" Line 204. Instance lab5_mem_bn is unbound
+Compiling package standard
+Compiling package std_logic_1164
+Compiling package numeric_std
+Compiling package std_logic_arith
+Compiling package std_logic_unsigned
+Compiling architecture behavioral of entity brg [brg_default]
+Compiling architecture behavioral of entity SerialRX [serialrx_default]
+Compiling architecture behavioral of entity SerialTx [serialtx_default]
+Compiling architecture behavioral of entity bram_hlsm [bram_hlsm_default]
+Compiling architecture logic of entity debounce [debounce_default]
+Compiling architecture behavioral of entity Lab4 [lab4_default]
+Compiling architecture behavior of entity bram_tb
+Time Resolution for simulation is 1ps.
+Waiting for 1 sub-compilation(s) to finish...
+Compiled 18 VHDL Units
+Built simulation executable O:/network_digitaldesign/DigitalDesign/finallab/final_lab/bram_TB_isim_beh.exe
+Fuse Memory Usage: 38344 KB
+Fuse CPU Usage: 966 ms

@@ -1,0 +1,5 @@
+set -tmpdir "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/xst/projnav.tmp"
+set -xsthdpdir "O:/Desktop/Digitaldesign/Lab 3/lab3prob2_test/xst"
+elaborate
+-ifn writstwatch.prj
+-ifmt mixed

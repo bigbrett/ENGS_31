@@ -1,0 +1,28 @@
+Command line:
+   sinwave_tb_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  50931
+
+Sat Aug 24 21:49:13 2013
+
+
+ Elaboration Time: 0.0468 sec
+
+ Current Memory Usage: 830.882 Meg
+
+ Total Signals          : 92
+ Total Nets             : 497
+ Total Signal Drivers   : 52
+ Total Blocks           : 11
+ Total Primitive Blocks : 9
+ Total Processes        : 31
+ Total Traceable Variables  : 60
+ Total Scalar Nets and Variables : 1126
+
+ Total Simulation Time: 3.97802 sec
+
+ Current Memory Usage: 830.882 Meg
+
+Sat Aug 24 21:51:44 2013
+

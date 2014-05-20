@@ -1,0 +1,45 @@
+ISim log file
+Running: O:\network_digitaldesign\8_18AM\morning\sinwave_tb_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb O:/network_digitaldesign/8_18AM/morning/sinwave_tb_isim_beh.wdb 
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 100 ms
+at 61540 ns(6), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 61560 ns(1), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 61580 ns(1), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+Stopped at time : 23317100 ns : File "//thayerfs/d36937q/network_digitaldesign/8-20/fSCLK_GEN.vhd" Line 44
+# restart
+# run 100 ms
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+at 61540 ns(6), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 61560 ns(1), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+at 61580 ns(1), Instance /sinwave_tb/UUT/control/ : Warning: NUMERIC_STD.">": metavalue detected, returning FALSE
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 100 ms
+# restart
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 100 ms
+# isim force add /sinwave_tb/txd_vect 0000000000000000 -radix bin -time 41400 ns -cancel 42 us
+# isim force add /sinwave_tb/txd_vect 0000000000000000 -radix bin -time 41400 ns -cancel 42 us
+# isim force add /sinwave_tb/txd_vect 0000000000000000 -radix bin -time 41400 ns -cancel 42 us
+ISim P.49d (signature 0x7708f090)
+This is a Full version of ISim.
+# run 1000 ns
+Simulator is doing circuit initialization process.
+Finished circuit initialization process.
+# run 100 ms
+Stopped at time : 11660980 ns : File "//thayerfs/d36937q/network_digitaldesign/8-20/freqcalc.vhd" Line 62

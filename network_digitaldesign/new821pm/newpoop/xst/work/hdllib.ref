@@ -1,0 +1,14 @@
+AR fsclk_gen behavioral C:/new821pm/newpoop/fSCLK_GEN.vhd sub00/vhpl05 1377139873
+EN serialrx NULL C:/new821pm/newpoop/SerialRX.vhd sub00/vhpl02 1377139870
+AR s_rate_gen behavioral C:/new821pm/newpoop/s_rate_GEN.vhd sub00/vhpl11 1377139879
+EN topleveltuner NULL C:/new821pm/newpoop/topleveltuner.vhd sub00/vhpl12 1377139880
+EN s_rate_gen NULL C:/new821pm/newpoop/s_rate_GEN.vhd sub00/vhpl10 1377139878
+EN freqcalc NULL C:/new821pm/newpoop/freqcalc.vhd sub00/vhpl06 1377139874
+EN fsclk_gen NULL C:/new821pm/newpoop/fSCLK_GEN.vhd sub00/vhpl04 1377139872
+AR topleveltuner behavioral C:/new821pm/newpoop/topleveltuner.vhd sub00/vhpl13 1377139881
+AR freqcalc behavioral C:/new821pm/newpoop/freqcalc.vhd sub00/vhpl07 1377139875
+EN controller NULL C:/new821pm/newpoop/controller.vhd sub00/vhpl00 1377139868
+EN comparator NULL C:/new821pm/newpoop/comparator.vhd sub00/vhpl08 1377139876
+AR controller behavioral C:/new821pm/newpoop/controller.vhd sub00/vhpl01 1377139869
+AR comparator behavioral C:/new821pm/newpoop/comparator.vhd sub00/vhpl09 1377139877
+AR serialrx behavioral C:/new821pm/newpoop/SerialRX.vhd sub00/vhpl03 1377139871
